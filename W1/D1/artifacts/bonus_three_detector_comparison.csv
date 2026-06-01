@@ -1,0 +1,4 @@
+detector,precision,recall,f1,false_alarms
+STL + 3.5σ,0.004739336492890996,0.2,0.009259259259259259,210.0
+EWMA alpha=0.1 + 3σ,0.0,0.0,0.0,0.0
+Isolation Forest contamination=0.02,0.009708737864077669,0.4,0.018957345971563982,204.0

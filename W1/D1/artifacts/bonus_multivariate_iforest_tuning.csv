@@ -1,0 +1,4 @@
+detector,contamination,precision,recall,f1,false_alarms,n_predicted_anomalies
+Multivariate IF,0.01,0.0,0.0,0.0,384,384
+Multivariate IF,0.02,0.0013020833333333333,0.2,0.00258732212160414,767,768
+Multivariate IF,0.05,0.0010422094841063053,0.4,0.002079002079002079,1917,1919

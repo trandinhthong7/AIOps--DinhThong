@@ -1,0 +1,9 @@
+Isolation Forest contamination tuning
+contamination=0.01: precision=0.010, recall=0.200, f1=0.019, false_alarms=102, predicted=103
+contamination=0.02: precision=0.010, recall=0.400, f1=0.019, false_alarms=204, predicted=206
+contamination=0.05: precision=0.006, recall=0.600, f1=0.012, false_alarms=511, predicted=514
+
+STL threshold tuning
+threshold=2.5: precision=0.002, recall=0.200, f1=0.003, false_alarms=574, predicted=575
+threshold=3.0: precision=0.003, recall=0.200, f1=0.005, false_alarms=377, predicted=378
+threshold=3.5: precision=0.005, recall=0.200, f1=0.009, false_alarms=210, predicted=211
