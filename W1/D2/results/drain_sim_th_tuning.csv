@@ -1,0 +1,4 @@
+drain_sim_th,num_templates,top_template_count,top_template
+0.3,73,729,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> <*>
+0.5,151,180,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>
+0.7,1459,71,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt."

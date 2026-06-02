@@ -1,0 +1,688 @@
+timestamp,template_id,template,count,mean,std,threshold,z_score
+2005-07-03 00:45:00,66,- <*> 2005.07.02 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.006,0.173,0.526,28.81
+2005-06-14 17:55:00,34,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: fp cr field .............0,4,0.005,0.139,0.421,28.81
+2005-07-25 23:30:00,88,- <*> 2005.07.25 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.005,0.139,0.421,28.81
+2005-06-14 17:55:00,33,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL guaranteed <*> cache block <*>,3,0.004,0.104,0.316,28.81
+2005-06-14 18:00:00,35,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL icache prefetch <*>,3,0.004,0.104,0.316,28.81
+2005-06-14 18:30:00,41,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL disable store gathering..................0,3,0.004,0.104,0.316,28.81
+2005-06-19 07:30:00,47,- <*> 2005.06.19 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.004,0.104,0.316,28.81
+2005-11-11 07:00:00,125,- <*> 2005.11.10 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.004,0.104,0.316,28.81
+2005-06-14 17:35:00,24,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL store operation.............................1,2,0.002,0.069,0.21,28.81
+2005-07-11 21:00:00,75,KERNRTSP <*> 2005.07.11 <*> <*> <*> RAS KERNEL FATAL rts panic! - stopping execution,2,0.002,0.069,0.21,28.81
+2005-07-27 19:25:00,90,- <*> 2005.07.27 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.002,0.069,0.21,28.81
+2005-07-28 18:05:00,91,- <*> 2005.07.28 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.002,0.069,0.21,28.81
+2005-08-28 10:35:00,107,"- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO NFS Mount failed on <*> slept 15 seconds, retrying (1)",2,0.002,0.069,0.21,28.81
+2005-11-08 00:10:00,120,- <*> 2005.11.07 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.002,0.069,0.21,28.81
+2005-06-07 02:50:00,8,- 1118112700 2005.06.06 R23-M0-N0-I:J18-U01 2005-06-06-19.51.40.376079 R23-M0-N0-I:J18-U01 RAS KERNEL INFO ciod: cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff,1,0.001,0.035,0.105,28.81
+2005-06-13 21:55:00,15,- 1118699850 2005.06.13 R22-M0-NC-I:J18-U01 2005-06-13-14.57.30.126106 R22-M0-NC-I:J18-U01 RAS KERNEL INFO ciod: Message code 0 is not 51 or 4294967295,1,0.001,0.035,0.105,28.81
+2005-06-14 17:40:00,28,- 1118771075 2005.06.14 R24-M0-NF-C:J09-U01 2005-06-14-10.44.35.353282 R24-M0-NF-C:J09-U01 RAS KERNEL FATAL auxiliary processor.........................0,1,0.001,0.035,0.105,28.81
+2005-06-14 17:50:00,32,- 1118771679 2005.06.14 R21-M1-N5-C:J05-U11 2005-06-14-10.54.39.063056 R21-M1-N5-C:J05-U11 RAS KERNEL FATAL program interrupt: fp cr update.............0,1,0.001,0.035,0.105,28.81
+2005-06-14 18:05:00,36,- 1118772337 2005.06.14 R24-M0-N7-C:J06-U01 2005-06-14-11.05.37.845720 R24-M0-N7-C:J06-U01 RAS KERNEL FATAL critical input interrupt enable...0,1,0.001,0.035,0.105,28.81
+2005-06-14 18:10:00,37,- 1118772810 2005.06.14 R27-M0-N9-C:J12-U01 2005-06-14-11.13.30.870052 R27-M0-N9-C:J12-U01 RAS KERNEL FATAL special purpose registers:,1,0.001,0.035,0.105,28.81
+2005-06-14 18:10:00,38,- 1118772877 2005.06.14 R27-M1-N3-C:J04-U11 2005-06-14-11.14.37.821210 R27-M1-N3-C:J04-U11 RAS KERNEL FATAL lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000,1,0.001,0.035,0.105,28.81
+2005-06-14 18:15:00,39,- 1118772927 2005.06.14 R27-M0-N6-C:J02-U11 2005-06-14-11.15.27.823191 R27-M0-N6-C:J02-U11 RAS KERNEL FATAL rts internal error,1,0.001,0.035,0.105,28.81
+2005-06-14 18:25:00,40,- 1118773618 2005.06.14 R25-M1-N7-C:J09-U11 2005-06-14-11.26.58.490506 R25-M1-N7-C:J09-U11 RAS KERNEL FATAL instruction address space.........0,1,0.001,0.035,0.105,28.81
+2005-06-18 00:40:00,45,- 1119055358 2005.06.17 R12-M1-NB-C:J15-U01 2005-06-17-17.42.38.875141 R12-M1-NB-C:J15-U01 RAS KERNEL INFO generating core.1488,1,0.001,0.035,0.105,28.81
+2005-06-19 03:25:00,46,- 1119151510 2005.06.18 R36-M0-NF-C:J13-U01 2005-06-18-20.25.10.503085 R36-M0-NF-C:J13-U01 RAS KERNEL INFO generating core.2186,1,0.001,0.035,0.105,28.81
+2005-06-21 02:00:00,50,APPCHILD 1119319455 2005.06.20 R12-M1-NC-I:J18-U11 2005-06-20-19.04.15.002425 R12-M1-NC-I:J18-U11 RAS APP FATAL ciod: Error creating node map from file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map: No child processes,1,0.001,0.035,0.105,28.81
+2005-06-26 17:25:00,57,- 1119806971 2005.06.26 R05-M1-N8-C:J15-U11 2005-06-26-10.29.31.819506 R05-M1-N8-C:J15-U11 RAS KERNEL INFO instruction address: 0x0062fe04,1,0.001,0.035,0.105,28.81
+2005-06-26 17:30:00,58,- 1119807051 2005.06.26 R05-M0-N6-C:J06-U11 2005-06-26-10.30.51.645473 R05-M0-N6-C:J06-U11 RAS KERNEL INFO exception syndrome register: 0x08000000,1,0.001,0.035,0.105,28.81
+2005-07-09 11:30:00,72,- 1120908821 2005.07.09 R20-M0-N8-I:J18-U01 2005-07-09-04.33.41.091472 R20-M0-N8-I:J18-U01 RAS KERNEL INFO ciod: duplicate canonical-rank 31 to logical-rank 0 mapping at line 3 of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map,1,0.001,0.035,0.105,28.81
+2005-07-14 23:20:00,78,- 1121383222 2005.07.14 R01-M0-N0-I:J18-U11 2005-07-14-16.20.22.672549 R01-M0-N0-I:J18-U11 RAS APP FATAL ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map: Permission denied,1,0.001,0.035,0.105,28.81
+2005-07-15 06:15:00,79,- 1121408299 2005.07.14 R23-M0-N0-I:J18-U01 2005-07-14-23.18.19.684786 R23-M0-N0-I:J18-U01 RAS KERNEL INFO ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map,1,0.001,0.035,0.105,28.81
+2005-07-18 22:50:00,83,"KERNTERM 1121727206 2005.07.18 R20-M1-N8-C:J12-U01 2005-07-18-15.53.26.229596 R20-M1-N8-C:J12-U01 RAS KERNEL FATAL rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=42315, cpu=105, index=1207960804, total=2691015",1,0.001,0.035,0.105,28.81
+2005-07-18 23:00:00,84,- 1121727746 2005.07.18 R00-M1-N5-C:J03-U11 2005-07-18-16.02.26.154455 R00-M1-N5-C:J03-U11 RAS KERNEL FATAL debug wait enable.................0,1,0.001,0.035,0.105,28.81
+2005-08-02 23:35:00,93,- 1123025954 2005.08.02 R23-M0-N7 2005-08-02-16.39.14.159918 R23-M0-N7 NULL HARDWARE SEVERE NodeCard is not fully functional,1,0.001,0.035,0.105,28.81
+2005-08-03 00:55:00,94,"- 1123030687 2005.08.02 R00-M0-N2 2005-08-02-17.58.07.084868 R00-M0-N2 NULL DISCOVERY ERROR Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",1,0.001,0.035,0.105,28.81
+2005-08-05 17:20:00,98,"- 1123262593 2005.08.05 R25-M1-N2 2005-08-05-10.23.13.029850 R25-M1-N2 NULL HARDWARE WARNING PrepareForService shutting down NodeCard(mLctn(R25-M1-N2), mCardSernum(203231503833343000000000594c31304b34333431303158), mLp(FF:F2:9F:16:CF:0F:00:0D:60:E9:30:F0), mIp(10.2.2.80), mType(4)) as part of Service Action 310",1,0.001,0.035,0.105,28.81
+2005-08-09 19:05:00,99,- 1123614572 2005.08.09 R00-M0-N6-C:J03-U11 2005-08-09-12.09.32.252222 R00-M0-N6-C:J03-U11 RAS KERNEL FATAL rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-,1,0.001,0.035,0.105,28.81
+2005-09-08 20:35:00,110,"- 1126211906 2005.09.08 R62-M1-NC-I:J18-U11 2005-09-08-13.38.26.477794 R62-M1-NC-I:J18-U11 RAS KERNEL INFO ciod: In packet from node 91.0 (R62-M1-Nf-C:J03-U11), message code 2 is not 3 or 4294967295 (softheader=003b005b 00030000 00000001 00000000)",1,0.001,0.035,0.105,28.81
+2005-09-21 01:00:00,112,- 1127264516 2005.09.20 R05-M0-N1-C:J06-U11 2005-09-20-18.01.56.398119 R05-M0-N1-C:J06-U11 RAS KERNEL FATAL rts: bad message header: expecting type 57 instead of type 3 (softheader=00131db8 81aa0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007,1,0.001,0.035,0.105,28.81
+2005-10-19 15:05:00,116,- 1129734520 2005.10.19 R17-M0-N0-I:J18-U01 2005-10-19-08.08.40.058960 R17-M0-N0-I:J18-U01 RAS KERNEL INFO shutdown complete,1,0.001,0.035,0.105,28.81
+2005-11-09 08:40:00,122,- 1131525612 2005.11.09 R62-M0-N4-C:J13-U01 2005-11-09-00.40.12.350846 R62-M0-N4-C:J13-U01 RAS KERNEL FATAL program interrupt: privileged instruction...0,1,0.001,0.035,0.105,28.81
+2005-11-10 12:05:00,124,- 1131624435 2005.11.10 R22-M1-N1-C:J17-U11 2005-11-10-04.07.15.804295 R22-M1-N1-C:J17-U11 RAS KERNEL INFO 3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected,1,0.001,0.035,0.105,28.81
+2005-11-24 14:05:00,133,- 1132841276 2005.11.24 R03-M1-NF-C:J07-U01 2005-11-24-06.07.56.407913 R03-M1-NF-C:J07-U01 RAS KERNEL FATAL dbcr0=0x00000000 dbsr=0x00000000 ccr0=0x40002000,1,0.001,0.035,0.105,28.81
+2005-11-27 00:35:00,135,- 1133051996 2005.11.26 R03-M1-NF-C:J07-U01 2005-11-26-16.39.56.330868 R03-M1-NF-C:J07-U01 RAS KERNEL FATAL r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000,1,0.001,0.035,0.105,28.81
+2005-12-03 17:25:00,140,"- 1133630999 2005.12.03 R10-M1-N2 2005-12-03-09.29.59.645290 R10-M1-N2 NULL HARDWARE WARNING PrepareForService shutting down Node card(mLctn(R10-M1-N2), mCardSernum(203231503833343000000000594c31304b34323934303257), mLp(FF:F2:9F:16:E0:DA:00:0D:60:E9:1F:25), mIp(10.1.1.164), mType(4)) as part of Service Action 648",1,0.001,0.035,0.105,28.81
+2005-12-03 19:30:00,141,"- 1133638373 2005.12.03 R56-M0-NA-C:J15-U11 2005-12-03-11.32.53.165837 R56-M0-NA-C:J15-U11 RAS KERNEL INFO Kernel detected 35591540 integer alignment exceptions (35591533) iar 0x0023f108, dear 0x1feaa260 (35591534) iar 0x00265564, dear 0x1feaa1c0 (35591535) iar 0x00265574, dear 0x1feaa1e0 (35591536) iar 0x00265578, dear 0x1feaa200 (35591537) iar 0x00265588, dear 0x1feaa220 (35591538) iar 0x0026558c, dear 0x1feaa240 (35591539) iar 0x00265594, dear 0x1feaa260 (35591540) iar 0x00265598, dear 0x1feaa280",1,0.001,0.035,0.105,28.81
+2005-12-04 18:30:00,143,- 1133721087 2005.12.04 R71-M0-N4-C:J14-U01 2005-12-04-10.31.27.742650 R71-M0-N4-C:J14-U01 RAS KERNEL FATAL minus normalized number..................0,1,0.001,0.035,0.105,28.81
+2005-12-06 02:10:00,144,- 1133835041 2005.12.05 R52-M1-NA-C:J03-U01 2005-12-05-18.10.41.610617 R52-M1-NA-C:J03-U01 RAS KERNEL FATAL fraction rounded.........................0,1,0.001,0.035,0.105,28.81
+2005-12-07 01:40:00,145,- 1133919747 2005.12.06 R03-M0-N7-C:J07-U01 2005-12-06-17.42.27.383145 R03-M0-N7-C:J07-U01 RAS KERNEL FATAL size of scratchpad portion of L3.........0 (0M),1,0.001,0.035,0.105,28.81
+2005-12-12 03:15:00,147,APPOUT 1134357549 2005.12.11 R63-M1-N0-I:J18-U11 2005-12-11-19.19.09.737509 R63-M1-N0-I:J18-U11 RAS APP FATAL ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed: Input/output error,1,0.001,0.035,0.105,28.81
+2005-12-18 18:10:00,148,- 1134929456 2005.12.18 R30-M1-N3-C:J13-U01 2005-12-18-10.10.56.366499 R30-M1-N3-C:J13-U01 RAS KERNEL INFO 2 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 282 seconds,1,0.001,0.035,0.105,28.81
+2005-12-21 15:25:00,149,"- 1135178837 2005.12.21 R62-M0-N4-I:J18-U01 2005-12-21-07.27.17.749308 R62-M0-N4-I:J18-U01 RAS APP FATAL ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe: program image too big, 361544528 > 266076160",1,0.001,0.035,0.105,28.81
+2005-12-26 06:45:00,150,- 1135579635 2005.12.25 R62-M1-NA-C:J04-U01 2005-12-25-22.47.15.963417 R62-M1-NA-C:J04-U01 RAS KERNEL FATAL fpr29=0xffffffff ffffffff ffffffff ffffffff,1,0.001,0.035,0.105,28.81
+2005-12-26 13:10:00,151,- 1135602839 2005.12.26 R61-M0-N3-C:J11-U11 2005-12-26-05.13.59.265193 R61-M0-N3-C:J11-U11 RAS KERNEL FATAL Machine State Register: 0x0002f900,1,0.001,0.035,0.105,28.81
+2005-06-20 18:10:00,48,- <*> 2005.06.20 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.01,0.245,0.745,28.52
+2005-06-14 17:15:00,22,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL exception syndrome register: 0x00800000,4,0.006,0.143,0.435,27.949
+2005-06-14 17:40:00,27,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL floating point instr. enabled.....1,3,0.005,0.11,0.334,27.33
+2005-06-26 16:30:00,56,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO auxiliary processor.........................0,3,0.005,0.11,0.334,27.33
+2005-11-21 21:40:00,132,APPRES <*> 2005.11.21 <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Connection reset by peer,3,0.005,0.11,0.334,27.33
+2005-06-14 14:10:00,18,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.008,0.151,0.461,26.439
+2005-07-18 17:20:00,82,- <*> 2005.07.18 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.013,0.266,0.812,26.253
+2005-06-04 07:20:00,4,APPREAD <*> <*> <*> <*> <*> RAS APP FATAL ciod: failed to read message prefix on control stream (CioStream socket to <*>,2,0.004,0.077,0.236,25.765
+2005-06-09 04:05:00,12,- <*> 2005.06.08 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.004,0.077,0.236,25.765
+2005-06-26 17:25:00,54,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt,2,0.004,0.077,0.236,25.765
+2005-06-14 18:30:00,25,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> <*> register: 0x00002000,6,0.013,0.237,0.726,25.213
+2005-06-21 18:15:00,51,- <*> 2005.06.21 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.006,0.125,0.381,23.965
+2005-06-07 02:50:00,7,- <*> 2005.06.06 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.005,0.085,0.259,23.518
+2005-06-15 13:55:00,43,- <*> 2005.06.15 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.005,0.085,0.259,23.518
+2005-06-16 10:00:00,44,- <*> 2005.06.16 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.012,0.214,0.653,23.363
+2005-09-20 19:05:00,96,"- <*> <*> NULL <*> NULL RAS MMCS ERROR idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",15,0.042,0.685,2.096,21.848
+2005-08-04 22:35:00,64,- <*> <*> UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <*> <*> <*> <*> status=M <*> <*> <*> <*> PDT 2005,2,0.006,0.092,0.281,21.772
+2005-11-15 02:25:00,117,"KERNREC <*> <*> <*> <*> <*> RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",2,0.006,0.092,0.281,21.772
+2005-06-30 00:40:00,60,- <*> 2005.06.29 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.011,0.186,0.57,21.39
+2005-06-14 17:30:00,21,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: <*> <*>,4,0.014,0.189,0.583,21.037
+2005-07-04 03:15:00,67,- <*> 2005.07.03 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.02,0.287,0.883,20.804
+2005-07-12 12:40:00,76,- <*> 2005.07.12 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.016,0.242,0.743,20.569
+2005-08-13 06:30:00,101,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Exec format error",6,0.02,0.292,0.895,20.507
+2005-08-09 17:30:00,65,- <*> <*> <*> <*> <*> NULL DISCOVERY SEVERE Can not get assembly information for node card,2,0.007,0.098,0.301,20.365
+2005-08-16 04:45:00,103,KERNTERM <*> <*> <*> <*> <*> RAS KERNEL FATAL rts: kernel terminated for reason <*>,2,0.007,0.098,0.301,20.365
+2005-10-17 12:00:00,115,- <*> 2005.10.17 R02-M0-N4-C:J04-U11 <*> R02-M0-N4-C:J04-U11 RAS KERNEL INFO data cache search parity error detected. attempting to correct,2,0.007,0.098,0.301,20.365
+2005-06-05 15:10:00,6,- <*> <*> <*> <*> <*> RAS KERNEL FATAL force load/store alignment...............0,1,0.002,0.049,0.149,20.359
+2005-06-14 17:55:00,6,- <*> <*> <*> <*> <*> RAS KERNEL FATAL force load/store alignment...............0,1,0.002,0.049,0.149,20.359
+2005-06-14 17:45:00,30,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL debug <*> <*>,1,0.002,0.049,0.149,20.359
+2005-06-14 18:20:00,30,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL debug <*> <*>,1,0.002,0.049,0.149,20.359
+2005-06-14 17:45:00,31,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL byte ordering exception.....................0,1,0.002,0.049,0.149,20.359
+2005-06-14 17:50:00,31,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL byte ordering exception.....................0,1,0.002,0.049,0.149,20.359
+2005-06-30 23:20:00,62,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error creating node map from file <*> <*> <*> <*>,1,0.002,0.049,0.149,20.359
+2005-07-09 11:50:00,62,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error creating node map from file <*> <*> <*> <*>,1,0.002,0.049,0.149,20.359
+2005-07-05 19:20:00,69,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Missing or invalid fields on line 1 of node map file <*>,1,0.002,0.049,0.149,20.359
+2005-08-15 18:50:00,69,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Missing or invalid fields on line 1 of node map file <*>,1,0.002,0.049,0.149,20.359
+2005-09-12 12:00:00,111,- <*> <*> <*> <*> <*> RAS KERNEL INFO suppressing further interrupts of same type,1,0.002,0.049,0.149,20.359
+2005-10-14 06:30:00,111,- <*> <*> <*> <*> <*> RAS KERNEL INFO suppressing further interrupts of same type,1,0.002,0.049,0.149,20.359
+2005-09-29 21:00:00,113,- <*> <*> <*> <*> <*> RAS KERNEL INFO critical input interrupt (unit=0x0b <*> warning for torus <*> wire,1,0.002,0.049,0.149,20.359
+2005-10-25 15:55:00,113,- <*> <*> <*> <*> <*> RAS KERNEL INFO critical input interrupt (unit=0x0b <*> warning for torus <*> wire,1,0.002,0.049,0.149,20.359
+2005-11-17 13:35:00,127,- <*> 2005.11.17 <*> <*> <*> RAS KERNEL INFO <*> torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over <*> seconds,1,0.002,0.049,0.149,20.359
+2005-11-17 14:15:00,127,- <*> 2005.11.17 <*> <*> <*> RAS KERNEL INFO <*> torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over <*> seconds,1,0.002,0.049,0.149,20.359
+2005-11-21 12:20:00,129,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : block_id : location,1,0.002,0.049,0.149,20.359
+2005-12-04 20:05:00,129,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : block_id : location,1,0.002,0.049,0.149,20.359
+2005-11-21 19:05:00,131,APPTO <*> 2005.11.21 <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Connection timed out,1,0.002,0.049,0.149,20.359
+2005-11-21 22:45:00,131,APPTO <*> 2005.11.21 <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Connection timed out,1,0.002,0.049,0.149,20.359
+2005-11-29 16:10:00,136,- <*> <*> R55-M0-N9-C:J06-U11 <*> R55-M0-N9-C:J06-U11 RAS KERNEL INFO <*> tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over <*> seconds,1,0.002,0.049,0.149,20.359
+2005-12-03 21:45:00,136,- <*> <*> R55-M0-N9-C:J06-U11 <*> R55-M0-N9-C:J06-U11 RAS KERNEL INFO <*> tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over <*> seconds,1,0.002,0.049,0.149,20.359
+2005-06-07 19:20:00,9,- <*> 2005.06.07 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.018,0.247,0.759,20.164
+2005-11-08 19:15:00,121,- <*> 2005.11.08 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,6,0.022,0.298,0.915,20.087
+2005-07-10 14:40:00,74,- <*> 2005.07.10 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.017,0.302,0.923,19.815
+2005-07-10 14:45:00,74,- <*> 2005.07.10 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.017,0.302,0.923,19.815
+2005-06-14 16:55:00,19,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL data <*> <*>,4,0.016,0.205,0.63,19.471
+2005-07-27 02:15:00,89,- <*> 2005.07.26 <*> <*> <*> RAS KERNEL INFO generating <*>,9,0.035,0.463,1.423,19.371
+2005-06-14 17:45:00,29,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL floating pt ex mode <*> enable......0,2,0.006,0.104,0.318,19.192
+2005-06-14 18:15:00,29,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL floating pt ex mode <*> enable......0,2,0.006,0.104,0.318,19.192
+2005-08-28 10:15:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,5,0.023,0.261,0.806,19.077
+2005-09-21 00:55:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",4,0.025,0.209,0.654,18.973
+2005-08-26 19:20:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,10,0.043,0.531,1.637,18.746
+2005-07-04 09:30:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.019,0.224,0.691,17.772
+2005-11-10 00:25:00,123,- <*> 2005.11.09 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.012,0.17,0.521,17.626
+2005-11-10 02:45:00,123,- <*> 2005.11.09 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.012,0.17,0.521,17.626
+2005-07-01 11:20:00,63,- <*> 2005.07.01 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.026,0.342,1.054,17.447
+2005-09-12 15:30:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,2,0.011,0.115,0.354,17.366
+2005-11-21 14:55:00,130,- <*> 2005.11.21 R26-M0-N0-I:J18-U11 <*> R26-M0-N0-I:J18-U11 RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),2,0.008,0.115,0.353,17.357
+2005-11-21 15:20:00,130,- <*> 2005.11.21 R26-M0-N0-I:J18-U11 <*> R26-M0-N0-I:J18-U11 RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),2,0.008,0.115,0.353,17.357
+2005-06-14 16:50:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,7,0.036,0.403,1.245,17.283
+2005-07-27 02:25:00,89,- <*> 2005.07.26 <*> <*> <*> RAS KERNEL INFO generating <*>,8,0.035,0.463,1.423,17.211
+2005-08-13 06:25:00,101,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Exec format error",5,0.02,0.292,0.895,17.078
+2005-06-14 17:40:00,23,- <*> <*> <*> <*> <*> RAS KERNEL <*> data store interrupt caused by <*>,3,0.012,0.176,0.541,16.932
+2005-06-26 16:30:00,23,- <*> <*> <*> <*> <*> RAS KERNEL <*> data store interrupt caused by <*>,3,0.012,0.176,0.541,16.932
+2005-07-25 01:45:00,87,- <*> 2005.07.24 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.012,0.176,0.541,16.932
+2005-07-25 01:50:00,87,- <*> 2005.07.24 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.012,0.176,0.541,16.932
+2005-08-26 19:25:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,9,0.043,0.531,1.637,16.863
+2005-06-30 15:30:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.029,0.297,0.92,16.737
+2005-12-13 17:50:00,134,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,2,0.01,0.12,0.369,16.617
+2005-12-15 07:15:00,134,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,2,0.01,0.12,0.369,16.617
+2005-12-07 04:00:00,146,"- <*> 2005.12.06 <*> <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",2,0.01,0.12,0.369,16.617
+2005-12-07 04:05:00,146,"- <*> 2005.12.06 <*> <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",2,0.01,0.12,0.369,16.617
+2005-06-26 16:15:00,53,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.004,0.06,0.184,16.613
+2005-06-26 16:20:00,53,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.004,0.06,0.184,16.613
+2005-06-26 17:25:00,53,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.004,0.06,0.184,16.613
+2005-08-02 22:25:00,92,- <*> 2005.08.02 UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO New ido chip inserted into the database: <*> <*> <*> <*>,1,0.004,0.06,0.184,16.613
+2005-08-02 23:30:00,92,- <*> 2005.08.02 UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO New ido chip inserted into the database: <*> <*> <*> <*>,1,0.004,0.06,0.184,16.613
+2005-08-03 04:25:00,92,- <*> 2005.08.02 UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO New ido chip inserted into the database: <*> <*> <*> <*>,1,0.004,0.06,0.184,16.613
+2005-08-10 05:35:00,100,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,1,0.004,0.06,0.184,16.613
+2005-10-14 07:00:00,100,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,1,0.004,0.06,0.184,16.613
+2005-10-28 06:00:00,100,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,1,0.004,0.06,0.184,16.613
+2005-09-08 20:35:00,109,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: pollControlDescriptors: Detected the debugger died.,1,0.004,0.06,0.184,16.613
+2005-12-17 01:55:00,109,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: pollControlDescriptors: Detected the debugger died.,1,0.004,0.06,0.184,16.613
+2005-12-20 03:50:00,109,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: pollControlDescriptors: Detected the debugger died.,1,0.004,0.06,0.184,16.613
+2005-11-15 13:40:00,126,"- <*> <*> <*> <*> <*> RAS KERNEL INFO critical input interrupt (unit=0x0b <*> warning for <*> <*> wire, suppressing further interrupts of same type",1,0.004,0.06,0.184,16.613
+2005-12-07 00:00:00,126,"- <*> <*> <*> <*> <*> RAS KERNEL INFO critical input interrupt (unit=0x0b <*> warning for <*> <*> wire, suppressing further interrupts of same type",1,0.004,0.06,0.184,16.613
+2005-12-14 23:00:00,126,"- <*> <*> <*> <*> <*> RAS KERNEL INFO critical input interrupt (unit=0x0b <*> warning for <*> <*> wire, suppressing further interrupts of same type",1,0.004,0.06,0.184,16.613
+2005-07-12 12:45:00,76,- <*> 2005.07.12 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.016,0.242,0.743,16.442
+2005-06-07 13:05:00,9,- <*> 2005.06.07 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.018,0.247,0.759,16.116
+2005-06-30 00:35:00,60,- <*> 2005.06.29 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.011,0.186,0.57,16.028
+2005-06-21 18:10:00,51,- <*> 2005.06.21 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.006,0.125,0.381,15.961
+2005-06-14 16:40:00,20,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL machine <*> <*>,2,0.008,0.125,0.383,15.959
+2005-06-14 17:25:00,20,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL machine <*> <*>,2,0.008,0.125,0.383,15.959
+2005-06-14 17:40:00,20,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL machine <*> <*>,2,0.008,0.125,0.383,15.959
+2005-09-21 01:20:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,3,0.022,0.189,0.588,15.778
+2005-07-17 11:00:00,81,- <*> 2005.07.17 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.039,0.448,1.382,15.54
+2005-06-09 19:00:00,13,- <*> 2005.06.09 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.01,0.129,0.398,15.377
+2005-06-09 21:50:00,13,- <*> 2005.06.09 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.01,0.129,0.398,15.377
+2005-06-10 02:35:00,13,- <*> 2005.06.09 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.01,0.129,0.398,15.377
+2005-06-26 16:25:00,55,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt: <*> <*>,2,0.01,0.129,0.398,15.377
+2005-06-26 16:35:00,55,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt: <*> <*>,2,0.01,0.129,0.398,15.377
+2005-06-26 17:30:00,55,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt: <*> <*>,2,0.01,0.129,0.398,15.377
+2005-06-14 00:50:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,4,0.024,0.263,0.813,15.112
+2005-06-14 16:15:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,4,0.024,0.263,0.813,15.112
+2005-07-08 01:40:00,71,- <*> 2005.07.07 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.022,0.263,0.812,15.11
+2005-07-08 02:05:00,71,- <*> 2005.07.07 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.022,0.263,0.812,15.11
+2005-07-23 15:30:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.04,0.395,1.225,15.087
+2005-07-23 18:40:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.04,0.395,1.225,15.087
+2005-07-16 06:45:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.047,0.464,1.44,14.974
+2005-11-03 22:50:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,10,0.071,0.668,2.075,14.864
+2005-06-14 18:25:00,19,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL data <*> <*>,3,0.016,0.205,0.63,14.584
+2005-07-01 11:10:00,63,- <*> 2005.07.01 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.026,0.342,1.054,14.526
+2005-06-25 16:00:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.046,0.481,1.489,14.458
+2005-06-25 18:45:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.046,0.481,1.489,14.458
+2005-06-14 17:40:00,26,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> state <*>,1,0.005,0.069,0.212,14.379
+2005-06-14 18:00:00,26,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> state <*>,1,0.005,0.069,0.212,14.379
+2005-06-14 18:05:00,26,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> state <*>,1,0.005,0.069,0.212,14.379
+2005-06-14 18:10:00,26,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> state <*>,1,0.005,0.069,0.212,14.379
+2005-07-06 13:55:00,70,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected,1,0.005,0.069,0.212,14.379
+2005-09-03 07:00:00,70,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected,1,0.005,0.069,0.212,14.379
+2005-09-09 12:00:00,70,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected,1,0.005,0.069,0.212,14.379
+2005-11-10 05:45:00,70,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> torus receiver <*> input pipe error(s) (dcr <*> detected and corrected,1,0.005,0.069,0.212,14.379
+2005-12-04 17:00:00,142,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected over <*> seconds,1,0.005,0.069,0.212,14.379
+2005-12-09 12:10:00,142,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected over <*> seconds,1,0.005,0.069,0.212,14.379
+2005-12-16 15:50:00,142,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected over <*> seconds,1,0.005,0.069,0.212,14.379
+2005-12-19 01:15:00,142,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected over <*> seconds,1,0.005,0.069,0.212,14.379
+2005-12-01 14:40:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",12,0.085,0.829,2.572,14.374
+2005-06-16 08:45:00,44,- <*> 2005.06.16 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.012,0.214,0.653,13.995
+2005-07-04 04:00:00,67,- <*> 2005.07.03 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.02,0.287,0.883,13.845
+2005-06-30 15:40:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.029,0.297,0.92,13.37
+2005-11-08 18:05:00,121,- <*> 2005.11.08 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,4,0.022,0.298,0.915,13.367
+2005-11-08 18:15:00,121,- <*> 2005.11.08 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,4,0.022,0.298,0.915,13.367
+2005-07-17 10:55:00,81,- <*> 2005.07.17 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.039,0.448,1.382,13.308
+2005-07-04 14:30:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.019,0.224,0.691,13.308
+2005-12-01 14:45:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,8,0.061,0.603,1.87,13.172
+2005-12-01 16:35:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,8,0.061,0.603,1.87,13.172
+2005-08-03 23:10:00,96,"- <*> <*> NULL <*> NULL RAS MMCS ERROR idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",9,0.042,0.685,2.096,13.084
+2005-09-20 19:10:00,96,"- <*> <*> NULL <*> NULL RAS MMCS ERROR idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",9,0.042,0.685,2.096,13.084
+2005-07-14 03:35:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,11,0.105,0.838,2.619,12.998
+2005-11-04 18:00:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,7,0.073,0.536,1.681,12.929
+2005-06-16 21:55:00,4,APPREAD <*> <*> <*> <*> <*> RAS APP FATAL ciod: failed to read message prefix on control stream (CioStream socket to <*>,1,0.004,0.077,0.236,12.859
+2005-06-09 04:45:00,12,- <*> 2005.06.08 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.004,0.077,0.236,12.859
+2005-06-26 16:15:00,54,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt,1,0.004,0.077,0.236,12.859
+2005-08-04 17:25:00,97,- <*> <*> <*> <*> <*> NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,1,0.006,0.077,0.238,12.853
+2005-08-04 19:25:00,97,- <*> <*> <*> <*> <*> NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,1,0.006,0.077,0.238,12.853
+2005-08-09 18:00:00,97,- <*> <*> <*> <*> <*> NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,1,0.006,0.077,0.238,12.853
+2005-08-28 01:45:00,97,- <*> <*> <*> <*> <*> NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,1,0.006,0.077,0.238,12.853
+2005-09-17 17:45:00,97,- <*> <*> <*> <*> <*> NULL DISCOVERY ERROR Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.,1,0.006,0.077,0.238,12.853
+2005-06-05 15:30:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.053,0.392,1.229,12.621
+2005-06-05 16:35:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.053,0.392,1.229,12.621
+2005-06-05 17:00:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.053,0.392,1.229,12.621
+2005-06-14 18:00:00,25,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> <*> register: 0x00002000,3,0.013,0.237,0.726,12.578
+2005-06-25 16:10:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.046,0.481,1.489,12.379
+2005-06-14 16:05:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,5,0.036,0.403,1.245,12.319
+2005-11-21 21:40:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",2,0.019,0.162,0.504,12.26
+2005-11-26 13:25:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",2,0.019,0.162,0.504,12.26
+2005-11-29 23:15:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",2,0.019,0.162,0.504,12.26
+2005-08-18 19:40:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,3,0.036,0.243,0.764,12.216
+2005-08-22 20:05:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,3,0.036,0.243,0.764,12.216
+2005-12-01 16:40:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",10,0.085,0.829,2.572,11.961
+2005-11-03 22:45:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,8,0.071,0.668,2.075,11.87
+2005-11-03 23:10:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,8,0.071,0.668,2.075,11.87
+2005-07-14 03:15:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,10,0.105,0.838,2.619,11.805
+2005-07-14 04:05:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,10,0.105,0.838,2.619,11.805
+2005-06-07 03:20:00,7,- <*> 2005.06.06 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.005,0.085,0.259,11.731
+2005-06-07 05:40:00,7,- <*> 2005.06.06 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.005,0.085,0.259,11.731
+2005-06-15 14:40:00,43,- <*> 2005.06.15 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.005,0.085,0.259,11.731
+2005-06-15 16:30:00,43,- <*> 2005.06.15 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.005,0.085,0.259,11.731
+2005-11-09 23:45:00,123,- <*> 2005.11.09 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.012,0.17,0.521,11.727
+2005-06-28 16:50:00,59,- <*> <*> <*> <*> <*> NULL DISCOVERY WARNING Node card is not fully functional,1,0.007,0.085,0.261,11.726
+2005-07-09 06:15:00,59,- <*> <*> <*> <*> <*> NULL DISCOVERY WARNING Node card is not fully functional,1,0.007,0.085,0.261,11.726
+2005-08-04 17:55:00,59,- <*> <*> <*> <*> <*> NULL DISCOVERY WARNING Node card is not fully functional,1,0.007,0.085,0.261,11.726
+2005-08-09 17:40:00,59,- <*> <*> <*> <*> <*> NULL DISCOVERY WARNING Node card is not fully functional,1,0.007,0.085,0.261,11.726
+2005-08-09 17:50:00,59,- <*> <*> <*> <*> <*> NULL DISCOVERY WARNING Node card is not fully functional,1,0.007,0.085,0.261,11.726
+2005-12-06 18:05:00,59,- <*> <*> <*> <*> <*> NULL DISCOVERY WARNING Node card is not fully functional,1,0.007,0.085,0.261,11.726
+2005-06-12 02:30:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,4,0.072,0.336,1.079,11.699
+2005-07-01 11:05:00,63,- <*> 2005.07.01 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.026,0.342,1.054,11.605
+2005-07-01 11:25:00,63,- <*> 2005.07.01 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.026,0.342,1.054,11.605
+2005-12-01 16:30:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,7,0.061,0.603,1.87,11.512
+2005-07-02 00:50:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,8,0.131,0.686,2.188,11.476
+2005-07-13 11:00:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,8,0.131,0.686,2.188,11.476
+2005-08-28 10:10:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.023,0.261,0.806,11.411
+2005-08-28 10:20:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.023,0.261,0.806,11.411
+2005-07-07 21:40:00,71,- <*> 2005.07.07 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.022,0.263,0.812,11.312
+2005-07-07 21:45:00,71,- <*> 2005.07.07 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.022,0.263,0.812,11.312
+2005-06-14 00:45:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,3,0.024,0.263,0.813,11.311
+2005-06-14 16:20:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,3,0.024,0.263,0.813,11.311
+2005-06-14 17:25:00,23,- <*> <*> <*> <*> <*> RAS KERNEL <*> data store interrupt caused by <*>,2,0.012,0.176,0.541,11.265
+2005-06-26 17:35:00,23,- <*> <*> <*> <*> <*> RAS KERNEL <*> data store interrupt caused by <*>,2,0.012,0.176,0.541,11.265
+2005-07-25 01:55:00,87,- <*> 2005.07.24 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.012,0.176,0.541,11.265
+2005-07-25 02:00:00,87,- <*> 2005.07.24 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.012,0.176,0.541,11.265
+2005-07-18 17:15:00,82,- <*> 2005.07.18 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.013,0.266,0.812,11.223
+2005-07-17 11:10:00,81,- <*> 2005.07.17 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.039,0.448,1.382,11.075
+2005-07-17 11:20:00,81,- <*> 2005.07.17 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.039,0.448,1.382,11.075
+2005-11-04 17:40:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,6,0.073,0.536,1.681,11.062
+2005-11-04 17:50:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,6,0.073,0.536,1.681,11.062
+2005-11-04 18:05:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,6,0.073,0.536,1.681,11.062
+2005-06-15 16:20:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,3,0.051,0.268,0.856,10.988
+2005-06-15 16:25:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,3,0.051,0.268,0.856,10.988
+2005-07-01 15:25:00,64,- <*> <*> UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <*> <*> <*> <*> status=M <*> <*> <*> <*> PDT 2005,1,0.006,0.092,0.281,10.853
+2005-08-09 17:15:00,64,- <*> <*> UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <*> <*> <*> <*> status=M <*> <*> <*> <*> PDT 2005,1,0.006,0.092,0.281,10.853
+2005-09-17 14:55:00,64,- <*> <*> UNKNOWN_LOCATION <*> UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: <*> <*> <*> <*> status=M <*> <*> <*> <*> PDT 2005,1,0.006,0.092,0.281,10.853
+2005-10-28 20:00:00,117,"KERNREC <*> <*> <*> <*> <*> RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",1,0.006,0.092,0.281,10.853
+2005-11-09 01:25:00,117,"KERNREC <*> <*> <*> <*> <*> RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",1,0.006,0.092,0.281,10.853
+2005-11-16 03:20:00,117,"KERNREC <*> <*> <*> <*> <*> RAS KERNEL FATAL Error receiving packet on tree network, expecting type 57 instead of type 3 <*> <*> 00000002 00000000) <*> PSR1=00000000 PRXF=00000002 PIXF=00000007",1,0.006,0.092,0.281,10.853
+2005-12-03 15:55:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-04 17:00:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-09 08:35:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-11 00:05:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-14 03:20:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-15 05:05:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-15 05:55:00,139,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr error(s) detected and corrected on rank 0, symbol <*> over <*> seconds",1,0.008,0.091,0.283,10.85
+2005-12-01 16:30:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",9,0.085,0.829,2.572,10.755
+2005-07-27 02:30:00,89,- <*> 2005.07.26 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.035,0.463,1.423,10.728
+2005-07-15 15:40:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.047,0.464,1.44,10.667
+2005-07-16 06:05:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.047,0.464,1.44,10.667
+2005-07-16 06:35:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.047,0.464,1.44,10.667
+2005-06-30 00:30:00,60,- <*> 2005.06.29 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.011,0.186,0.57,10.666
+2005-10-13 01:20:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",2,0.023,0.185,0.579,10.664
+2005-10-13 12:00:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",2,0.023,0.185,0.579,10.664
+2005-11-07 12:30:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",2,0.023,0.185,0.579,10.664
+2005-12-09 20:15:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",2,0.023,0.185,0.579,10.664
+2005-12-09 20:35:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",2,0.023,0.185,0.579,10.664
+2005-08-13 20:50:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,2,0.022,0.189,0.588,10.48
+2005-09-19 16:30:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,2,0.022,0.189,0.588,10.48
+2005-09-21 01:15:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,2,0.022,0.189,0.588,10.48
+2005-06-14 17:20:00,21,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: <*> <*>,2,0.014,0.189,0.583,10.48
+2005-06-14 17:25:00,21,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: <*> <*>,2,0.014,0.189,0.583,10.48
+2005-06-14 17:50:00,21,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: <*> <*>,2,0.014,0.189,0.583,10.48
+2005-07-04 03:20:00,67,- <*> 2005.07.03 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.02,0.287,0.883,10.366
+2005-06-25 16:05:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.046,0.481,1.489,10.3
+2005-07-01 18:05:00,65,- <*> <*> <*> <*> <*> NULL DISCOVERY SEVERE Can not get assembly information for node card,1,0.007,0.098,0.301,10.146
+2005-08-03 04:15:00,65,- <*> <*> <*> <*> <*> NULL DISCOVERY SEVERE Can not get assembly information for node card,1,0.007,0.098,0.301,10.146
+2005-08-03 09:10:00,65,- <*> <*> <*> <*> <*> NULL DISCOVERY SEVERE Can not get assembly information for node card,1,0.007,0.098,0.301,10.146
+2005-08-09 17:45:00,65,- <*> <*> <*> <*> <*> NULL DISCOVERY SEVERE Can not get assembly information for node card,1,0.007,0.098,0.301,10.146
+2005-10-28 19:55:00,103,KERNTERM <*> <*> <*> <*> <*> RAS KERNEL FATAL rts: kernel terminated for reason <*>,1,0.007,0.098,0.301,10.146
+2005-11-11 03:35:00,103,KERNTERM <*> <*> <*> <*> <*> RAS KERNEL FATAL rts: kernel terminated for reason <*>,1,0.007,0.098,0.301,10.146
+2005-11-15 02:25:00,103,KERNTERM <*> <*> <*> <*> <*> RAS KERNEL FATAL rts: kernel terminated for reason <*>,1,0.007,0.098,0.301,10.146
+2005-11-16 03:15:00,103,KERNTERM <*> <*> <*> <*> <*> RAS KERNEL FATAL rts: kernel terminated for reason <*>,1,0.007,0.098,0.301,10.146
+2005-10-17 12:15:00,115,- <*> 2005.10.17 R02-M0-N4-C:J04-U11 <*> R02-M0-N4-C:J04-U11 RAS KERNEL INFO data cache search parity error detected. attempting to correct,1,0.007,0.098,0.301,10.146
+2005-10-17 12:20:00,115,- <*> 2005.10.17 R02-M0-N4-C:J04-U11 <*> R02-M0-N4-C:J04-U11 RAS KERNEL INFO data cache search parity error detected. attempting to correct,1,0.007,0.098,0.301,10.146
+2005-10-17 12:30:00,115,- <*> 2005.10.17 R02-M0-N4-C:J04-U11 <*> R02-M0-N4-C:J04-U11 RAS KERNEL INFO data cache search parity error detected. attempting to correct,1,0.007,0.098,0.301,10.146
+2005-10-17 12:35:00,115,- <*> 2005.10.17 R02-M0-N4-C:J04-U11 <*> R02-M0-N4-C:J04-U11 RAS KERNEL INFO data cache search parity error detected. attempting to correct,1,0.007,0.098,0.301,10.146
+2005-06-30 15:35:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.029,0.297,0.92,10.003
+2005-06-30 16:20:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.029,0.297,0.92,10.003
+2005-12-01 16:45:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,6,0.061,0.603,1.87,9.853
+2005-06-14 00:35:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,4,0.036,0.403,1.245,9.838
+2005-06-14 00:40:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,4,0.036,0.403,1.245,9.838
+2005-06-14 17:15:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,4,0.036,0.403,1.245,9.838
+2005-06-14 16:35:00,19,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL data <*> <*>,2,0.016,0.205,0.63,9.697
+2005-06-14 17:50:00,19,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL data <*> <*>,2,0.016,0.205,0.63,9.697
+2005-07-20 23:10:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,7,0.146,0.714,2.287,9.603
+2005-07-24 00:35:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,7,0.146,0.714,2.287,9.603
+2005-06-14 18:20:00,29,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL floating pt ex mode <*> enable......0,1,0.006,0.104,0.318,9.567
+2005-08-03 00:55:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-08-04 17:30:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-09-02 22:50:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-09-20 18:55:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-09-20 19:20:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-09-20 19:45:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-11-15 17:40:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-11-15 17:45:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-11-30 00:20:00,95,- <*> <*> <*> <*> <*> NULL DISCOVERY INFO Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*> found <*>,1,0.011,0.104,0.321,9.557
+2005-09-01 05:25:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-01 05:30:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-02 19:40:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-02 20:20:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-02 20:50:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-03 14:55:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-04 22:00:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-08 18:05:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-09-13 16:00:00,108,KERNMNTF <*> <*> <*> <*> <*> RAS KERNEL FATAL Lustre mount FAILED : <*> : point /p/gb1,1,0.011,0.104,0.321,9.557
+2005-12-01 14:35:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",8,0.085,0.829,2.572,9.548
+2005-12-01 14:45:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",8,0.085,0.829,2.572,9.548
+2005-07-10 04:20:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,10,0.217,1.027,3.299,9.523
+2005-12-09 06:15:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",2,0.025,0.209,0.654,9.426
+2005-12-09 20:45:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",2,0.025,0.209,0.654,9.426
+2005-08-26 19:10:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,5,0.043,0.531,1.637,9.332
+2005-06-16 09:55:00,44,- <*> 2005.06.16 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.012,0.214,0.653,9.311
+2005-06-14 18:10:00,27,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL floating point instr. enabled.....1,1,0.005,0.11,0.334,9.081
+2005-06-26 17:35:00,56,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO auxiliary processor.........................0,1,0.005,0.11,0.334,9.081
+2005-11-21 22:55:00,132,APPRES <*> 2005.11.21 <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Connection reset by peer,1,0.005,0.11,0.334,9.081
+2005-11-03 23:25:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,6,0.071,0.668,2.075,8.876
+2005-07-17 11:15:00,81,- <*> 2005.07.17 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.039,0.448,1.382,8.843
+2005-07-17 11:25:00,81,- <*> 2005.07.17 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.039,0.448,1.382,8.843
+2005-07-04 09:35:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.019,0.224,0.691,8.843
+2005-07-04 14:15:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.019,0.224,0.691,8.843
+2005-07-04 14:25:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.019,0.224,0.691,8.843
+2005-07-04 14:35:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.019,0.224,0.691,8.843
+2005-11-21 14:40:00,130,- <*> 2005.11.21 R26-M0-N0-I:J18-U11 <*> R26-M0-N0-I:J18-U11 RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),1,0.008,0.115,0.353,8.642
+2005-11-21 14:45:00,130,- <*> 2005.11.21 R26-M0-N0-I:J18-U11 <*> R26-M0-N0-I:J18-U11 RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),1,0.008,0.115,0.353,8.642
+2005-11-21 15:00:00,130,- <*> 2005.11.21 R26-M0-N0-I:J18-U11 <*> R26-M0-N0-I:J18-U11 RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),1,0.008,0.115,0.353,8.642
+2005-08-15 02:00:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-09-11 10:20:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-09-15 15:25:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-09-27 00:20:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-10-06 11:20:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-10-10 19:00:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-10-16 22:20:00,102,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed,1,0.011,0.115,0.354,8.636
+2005-07-13 10:55:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,6,0.131,0.686,2.188,8.559
+2005-07-10 04:15:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,9,0.217,1.027,3.299,8.55
+2005-07-16 06:10:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.047,0.464,1.44,8.513
+2005-07-16 06:30:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.047,0.464,1.44,8.513
+2005-07-16 06:40:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.047,0.464,1.44,8.513
+2005-12-01 16:35:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",7,0.085,0.829,2.572,8.342
+2005-11-24 17:35:00,134,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,1,0.01,0.12,0.369,8.268
+2005-11-25 09:45:00,134,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,1,0.01,0.12,0.369,8.268
+2005-11-26 12:45:00,134,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,1,0.01,0.12,0.369,8.268
+2005-11-26 22:40:00,134,APPSEV <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix on CioStream socket to <*> Link has been severed,1,0.01,0.12,0.369,8.268
+2005-12-07 03:20:00,146,"- <*> 2005.12.06 <*> <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",1,0.01,0.12,0.369,8.268
+2005-12-07 03:30:00,146,"- <*> 2005.12.06 <*> <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",1,0.01,0.12,0.369,8.268
+2005-12-07 03:35:00,146,"- <*> 2005.12.06 <*> <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",1,0.01,0.12,0.369,8.268
+2005-12-07 04:10:00,146,"- <*> 2005.12.06 <*> <*> <*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ea8, dear <*> <*> iar 0x00544eb8, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*> <*> iar 0x00544ee0, dear <*> <*> iar 0x00544ef0, dear <*>",1,0.01,0.12,0.369,8.268
+2005-07-13 12:05:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.105,0.838,2.619,8.226
+2005-06-25 15:55:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.046,0.481,1.489,8.221
+2005-07-24 00:55:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,6,0.146,0.714,2.287,8.202
+2005-12-01 14:35:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,5,0.061,0.603,1.87,8.194
+2005-12-01 14:50:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,5,0.061,0.603,1.87,8.194
+2005-07-12 12:50:00,76,- <*> 2005.07.12 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.016,0.242,0.743,8.189
+2005-07-12 12:55:00,76,- <*> 2005.07.12 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.016,0.242,0.743,8.189
+2005-08-22 19:15:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,2,0.036,0.243,0.764,8.094
+2005-08-23 17:25:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,2,0.036,0.243,0.764,8.094
+2005-11-15 15:50:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,2,0.036,0.243,0.764,8.094
+2005-11-21 05:00:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,2,0.036,0.243,0.764,8.094
+2005-06-07 22:30:00,9,- <*> 2005.06.07 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.018,0.247,0.759,8.022
+2005-06-08 05:15:00,9,- <*> 2005.06.07 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.018,0.247,0.759,8.022
+2005-06-14 16:55:00,20,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL machine <*> <*>,1,0.008,0.125,0.383,7.946
+2005-06-14 21:25:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-07-13 07:05:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-07-23 13:50:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-07-23 23:20:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-08-10 14:55:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-08-16 23:10:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-08-25 12:20:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-09-13 05:00:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-09-22 09:15:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-09-23 08:40:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-10-07 21:05:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-10-09 04:35:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-10-21 12:15:00,42,- <*> <*> <*> <*> <*> RAS KERNEL INFO total of <*> ddr error(s) detected and corrected,1,0.016,0.124,0.388,7.932
+2005-06-09 07:10:00,13,- <*> 2005.06.09 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.01,0.129,0.398,7.651
+2005-06-09 19:05:00,13,- <*> 2005.06.09 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.01,0.129,0.398,7.651
+2005-06-26 16:20:00,55,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt: <*> <*>,1,0.01,0.129,0.398,7.651
+2005-06-26 16:30:00,55,- <*> 2005.06.26 <*> <*> <*> RAS KERNEL INFO program interrupt: <*> <*>,1,0.01,0.129,0.398,7.651
+2005-08-28 09:15:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.023,0.261,0.806,7.578
+2005-08-28 10:00:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.023,0.261,0.806,7.578
+2005-08-28 10:05:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.023,0.261,0.806,7.578
+2005-07-09 20:05:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,8,0.217,1.027,3.299,7.576
+2005-07-09 20:15:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,8,0.217,1.027,3.299,7.576
+2005-06-05 08:15:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.053,0.392,1.229,7.519
+2005-06-05 12:15:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.053,0.392,1.229,7.519
+2005-07-07 14:35:00,71,- <*> 2005.07.07 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.022,0.263,0.812,7.514
+2005-07-07 14:55:00,71,- <*> 2005.07.07 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.022,0.263,0.812,7.514
+2005-06-14 16:50:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,2,0.024,0.263,0.813,7.51
+2005-07-23 15:40:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.04,0.395,1.225,7.493
+2005-07-23 18:20:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.04,0.395,1.225,7.493
+2005-07-23 18:25:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.04,0.395,1.225,7.493
+2005-07-23 18:35:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.04,0.395,1.225,7.493
+2005-07-24 00:40:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.04,0.395,1.225,7.493
+2005-07-24 00:45:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.04,0.395,1.225,7.493
+2005-08-26 18:45:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,4,0.043,0.531,1.637,7.449
+2005-11-03 23:20:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,5,0.071,0.668,2.075,7.379
+2005-11-03 23:45:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,5,0.071,0.668,2.075,7.379
+2005-06-14 16:10:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,3,0.036,0.403,1.245,7.356
+2005-06-03 22:40:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,2,0.051,0.268,0.856,7.262
+2005-06-03 22:45:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,2,0.051,0.268,0.856,7.262
+2005-06-06 17:50:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,2,0.051,0.268,0.856,7.262
+2005-06-06 18:00:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,2,0.051,0.268,0.856,7.262
+2005-12-01 16:45:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",6,0.085,0.829,2.572,7.136
+2005-07-01 23:15:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,5,0.131,0.686,2.188,7.101
+2005-07-01 23:55:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,5,0.131,0.686,2.188,7.101
+2005-07-13 11:05:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,5,0.131,0.686,2.188,7.101
+2005-07-14 02:30:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.105,0.838,2.619,7.033
+2005-07-14 02:35:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.105,0.838,2.619,7.033
+2005-07-14 03:30:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.105,0.838,2.619,7.033
+2005-06-14 17:20:00,22,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL exception syndrome register: 0x00800000,1,0.006,0.143,0.435,6.956
+2005-07-04 03:25:00,67,- <*> 2005.07.03 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.02,0.287,0.883,6.887
+2005-07-04 04:05:00,67,- <*> 2005.07.03 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.02,0.287,0.883,6.887
+2005-07-20 23:15:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,5,0.146,0.714,2.287,6.801
+2005-07-24 00:25:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,5,0.146,0.714,2.287,6.801
+2005-07-24 00:40:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,5,0.146,0.714,2.287,6.801
+2005-11-04 00:20:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,5,0.146,0.714,2.287,6.801
+2005-08-13 06:50:00,101,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Exec format error",2,0.02,0.292,0.895,6.789
+2005-10-20 15:00:00,101,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Exec format error",2,0.02,0.292,0.895,6.789
+2005-06-08 23:00:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-06-21 19:20:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-07-16 03:30:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-07-23 23:20:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-07-29 08:50:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-08-20 06:25:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-08-27 03:50:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-08-28 16:55:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-09-01 16:50:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-09-09 13:20:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-09-23 06:20:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-10-09 07:45:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-10-14 07:00:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-10-24 03:05:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-10-31 14:50:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-11-05 19:20:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-11-10 14:25:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-11-11 14:45:00,11,"- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> ddr errors(s) detected and corrected on rank 0, symbol <*> bit <*>",1,0.022,0.146,0.458,6.721
+2005-11-08 19:25:00,121,- <*> 2005.11.08 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.022,0.298,0.915,6.647
+2005-06-30 15:25:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.029,0.297,0.92,6.637
+2005-06-30 16:25:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.029,0.297,0.92,6.637
+2005-06-30 17:00:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.029,0.297,0.92,6.637
+2005-07-09 19:40:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,7,0.217,1.027,3.299,6.603
+2005-07-10 14:50:00,74,- <*> 2005.07.10 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.017,0.302,0.923,6.568
+2005-06-14 07:00:00,18,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.008,0.151,0.461,6.568
+2005-06-14 21:10:00,18,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.008,0.151,0.461,6.568
+2005-06-15 00:35:00,18,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.008,0.151,0.461,6.568
+2005-12-01 14:40:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,4,0.061,0.603,1.87,6.535
+2005-12-01 16:40:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,4,0.061,0.603,1.87,6.535
+2005-06-25 18:40:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.046,0.481,1.489,6.142
+2005-11-18 13:35:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-18 15:10:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-18 15:40:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-21 13:25:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-21 18:00:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-24 22:15:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-26 01:35:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-27 00:40:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-28 04:05:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-11-30 02:25:00,128,"- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: Received signal 15, code=0, errno=0, <*>",1,0.019,0.162,0.504,6.07
+2005-12-01 14:50:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",5,0.085,0.829,2.572,5.929
+2005-11-03 23:05:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,4,0.071,0.668,2.075,5.882
+2005-11-03 23:15:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,4,0.071,0.668,2.075,5.882
+2005-11-03 23:30:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,4,0.071,0.668,2.075,5.882
+2005-07-13 12:10:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.105,0.838,2.619,5.84
+2005-07-14 02:45:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.105,0.838,2.619,5.84
+2005-07-14 04:00:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.105,0.838,2.619,5.84
+2005-11-09 23:35:00,123,- <*> 2005.11.09 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,1,0.012,0.17,0.521,5.828
+2005-11-10 00:35:00,123,- <*> 2005.11.09 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,1,0.012,0.17,0.521,5.828
+2005-07-01 11:15:00,63,- <*> 2005.07.01 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.026,0.342,1.054,5.764
+2005-06-12 00:45:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 00:50:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 01:00:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 02:05:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 02:20:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 02:55:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 03:05:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 04:15:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 04:25:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 04:30:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 05:00:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 05:05:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-06-12 05:45:00,14,KERNDTLB <*> 2005.06.11 R30-M0-N9-C:J16-U01 <*> R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt,2,0.072,0.336,1.079,5.742
+2005-07-02 01:10:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,4,0.131,0.686,2.188,5.642
+2005-07-07 22:40:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,4,0.131,0.686,2.188,5.642
+2005-08-28 09:35:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,4,0.131,0.686,2.188,5.642
+2005-08-28 09:45:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,4,0.131,0.686,2.188,5.642
+2005-07-09 17:45:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-09 18:10:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-09 18:50:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-09 18:55:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-09 19:45:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-09 20:20:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-10 04:00:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-07-10 04:25:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,6,0.217,1.027,3.299,5.63
+2005-06-06 15:05:00,3,- <*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,2,0.111,0.336,1.119,5.623
+2005-08-21 07:55:00,3,- <*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,2,0.111,0.336,1.119,5.623
+2005-10-09 04:35:00,3,- <*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,2,0.111,0.336,1.119,5.623
+2005-10-19 12:10:00,3,- <*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,2,0.111,0.336,1.119,5.623
+2005-11-10 12:05:00,3,- <*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,2,0.111,0.336,1.119,5.623
+2005-12-04 12:45:00,3,- <*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,2,0.111,0.336,1.119,5.623
+2005-11-04 17:30:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.073,0.536,1.681,5.463
+2005-11-04 17:35:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.073,0.536,1.681,5.463
+2005-11-04 18:10:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.073,0.536,1.681,5.463
+2005-11-04 18:15:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.073,0.536,1.681,5.463
+2005-11-04 23:30:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.073,0.536,1.681,5.463
+2005-11-04 23:50:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.073,0.536,1.681,5.463
+2005-07-20 23:40:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,4,0.146,0.714,2.287,5.4
+2005-07-21 00:05:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,4,0.146,0.714,2.287,5.4
+2005-07-23 17:25:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,4,0.146,0.714,2.287,5.4
+2005-07-24 00:30:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,4,0.146,0.714,2.287,5.4
+2005-07-24 01:30:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,4,0.146,0.714,2.287,5.4
+2005-10-01 12:35:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-10-05 11:05:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-10-13 01:25:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-10-30 16:00:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-11-03 15:00:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-11-17 13:00:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-12-09 20:10:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-12-09 20:30:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-12-14 22:30:00,114,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Permission denied",1,0.023,0.185,0.579,5.27
+2005-06-14 16:40:00,21,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: <*> <*>,1,0.014,0.189,0.583,5.202
+2005-06-14 17:45:00,21,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL program interrupt: <*> <*>,1,0.014,0.189,0.583,5.202
+2005-06-08 01:15:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-08-17 19:20:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-08-22 14:45:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-08-23 11:50:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-09-02 13:35:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-09-03 12:05:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-09-19 21:00:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-12-01 03:55:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-12-01 04:00:00,10,- <*> <*> <*> <*> <*> RAS APP FATAL ciod: LOGIN <*> failed: No such file or directory,1,0.022,0.189,0.588,5.183
+2005-06-05 07:05:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-06-05 07:35:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-06-05 15:05:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-06-05 16:15:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-06-05 16:20:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-06-05 16:40:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-06-05 17:25:00,5,- <*> 2005.06.05 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.053,0.392,1.229,4.967
+2005-07-24 00:30:00,86,- <*> 2005.07.23 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.04,0.395,1.225,4.962
+2005-12-01 16:25:00,137,- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.,3,0.061,0.603,1.87,4.876
+2005-06-14 16:55:00,16,KERNSTOR <*> <*> <*> <*> <*> RAS KERNEL FATAL data storage interrupt,2,0.036,0.403,1.245,4.874
+2005-06-14 17:15:00,19,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL data <*> <*>,1,0.016,0.205,0.63,4.81
+2005-06-14 17:20:00,19,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL data <*> <*>,1,0.016,0.205,0.63,4.81
+2005-07-09 18:45:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.217,1.027,3.299,4.656
+2005-07-10 04:10:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,5,0.217,1.027,3.299,4.656
+2005-06-20 23:20:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-06-22 01:05:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-06-25 21:50:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-07-11 19:50:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-08-13 23:35:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-09-11 06:45:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-09-21 01:00:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-09-21 01:05:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-09-21 01:10:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-10-13 12:55:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-10-25 14:45:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-11-03 16:40:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-11-03 16:45:00,49,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, No such file or directory",1,0.025,0.209,0.654,4.653
+2005-07-14 03:20:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.105,0.838,2.619,4.647
+2005-11-03 22:40:00,118,- <*> 2005.11.03 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,3,0.071,0.668,2.075,4.385
+2005-07-04 14:10:00,68,- <*> 2005.07.04 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.019,0.224,0.691,4.379
+2005-07-27 02:10:00,89,- <*> 2005.07.26 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.035,0.463,1.423,4.246
+2005-07-16 06:00:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.047,0.464,1.44,4.206
+2005-07-16 06:25:00,80,- <*> 2005.07.15 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.047,0.464,1.44,4.206
+2005-07-02 00:10:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,3,0.131,0.686,2.188,4.184
+2005-07-02 01:15:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,3,0.131,0.686,2.188,4.184
+2005-07-10 03:55:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,3,0.131,0.686,2.188,4.184
+2005-08-26 19:25:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,3,0.131,0.686,2.188,4.184
+2005-08-28 09:30:00,2,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> double-hummer alignment exceptions,3,0.131,0.686,2.188,4.184
+2005-06-14 17:35:00,25,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> <*> register: 0x00002000,1,0.013,0.237,0.726,4.156
+2005-06-14 17:50:00,25,- <*> 2005.06.14 <*> <*> <*> RAS KERNEL FATAL <*> <*> register: 0x00002000,1,0.013,0.237,0.726,4.156
+2005-06-25 18:50:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.046,0.481,1.489,4.063
+2005-06-25 19:05:00,52,- <*> 2005.06.25 <*> <*> <*> RAS KERNEL INFO generating <*>,2,0.046,0.481,1.489,4.063
+2005-06-20 18:05:00,48,- <*> 2005.06.20 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.01,0.245,0.745,4.041
+2005-07-20 23:00:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-07-20 23:05:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-07-20 23:35:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-07-20 23:50:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-07-20 23:55:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-11-03 23:05:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-11-04 00:25:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-11-04 23:50:00,85,- <*> <*> <*> <*> <*> RAS KERNEL INFO <*> floating point alignment exceptions,3,0.146,0.714,2.287,3.999
+2005-06-07 13:10:00,9,- <*> 2005.06.07 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.018,0.247,0.759,3.974
+2005-06-07 19:30:00,9,- <*> 2005.06.07 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.018,0.247,0.759,3.974
+2005-08-20 14:00:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-08-20 14:10:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-08-22 18:50:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-08-30 05:25:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-09-27 00:45:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-09-29 02:20:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-10-03 23:25:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-10-16 04:45:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-10-16 10:00:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-10-21 03:15:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-11-04 22:05:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-11-08 17:10:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-11-11 12:35:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-11-15 15:00:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-12-20 16:15:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2006-01-03 15:10:00,104,- <*> <*> <*> <*> <*> RAS KERNEL INFO ciod: generated <*> core files for program <*>,1,0.036,0.243,0.764,3.973
+2005-08-28 09:10:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,1,0.023,0.261,0.806,3.745
+2005-08-28 09:55:00,106,- <*> 2005.08.28 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,1,0.023,0.261,0.806,3.745
+2005-06-14 16:10:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,1,0.024,0.263,0.813,3.71
+2005-06-14 16:30:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,1,0.024,0.263,0.813,3.71
+2005-06-14 16:35:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,1,0.024,0.263,0.813,3.71
+2005-06-14 17:15:00,17,- <*> <*> <*> <*> <*> RAS KERNEL FATAL instruction address: 0x00004ed8,1,0.024,0.263,0.813,3.71
+2005-07-19 01:20:00,82,- <*> 2005.07.18 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.013,0.266,0.812,3.708
+2005-08-26 19:05:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.043,0.531,1.637,3.684
+2005-08-26 19:15:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.043,0.531,1.637,3.684
+2005-08-26 19:30:00,105,- <*> 2005.08.26 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.043,0.531,1.637,3.684
+2005-07-09 16:55:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-07-09 18:05:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-07-09 18:30:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-07-09 19:50:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-07-09 20:10:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-07-09 23:50:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-07-10 04:05:00,73,- <*> 2005.07.09 <*> <*> <*> RAS KERNEL INFO generating <*>,4,0.217,1.027,3.299,3.683
+2005-11-04 16:55:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-11-04 18:55:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-11-04 21:30:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-11-04 21:50:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-11-04 22:05:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-11-04 22:10:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-11-04 22:20:00,119,- <*> 2005.11.04 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,2,0.073,0.536,1.681,3.596
+2005-06-06 17:30:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-06 17:35:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-06 18:05:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-06 18:10:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 04:30:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 04:40:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 04:50:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 04:55:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 05:15:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 05:20:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 16:15:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-15 18:25:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-16 08:00:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-16 23:25:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-21 19:55:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-22 14:35:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-06-26 16:00:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-11-01 10:15:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-11-05 04:00:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-11-07 07:05:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 00:25:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 02:50:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 03:15:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 05:25:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 06:35:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 07:40:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 07:45:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-27 09:20:00,1,- <*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,1,0.051,0.268,0.856,3.537
+2005-12-01 16:25:00,138,"- <*> 2005.12.01 <*> <*> <*> RAS KERNEL INFO <*> total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.",3,0.085,0.829,2.572,3.516
+2005-07-14 03:55:00,77,- <*> 2005.07.13 <*> <*> <*> RAS KERNEL INFO generating <*>,3,0.105,0.838,2.619,3.454
+2005-08-13 06:40:00,101,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Exec format error",1,0.02,0.292,0.895,3.359
+2005-08-13 06:45:00,101,"- <*> <*> <*> <*> <*> RAS APP FATAL ciod: Error loading <*> invalid or missing program image, Exec format error",1,0.02,0.292,0.895,3.359
+2005-11-08 18:20:00,121,- <*> 2005.11.08 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,1,0.022,0.298,0.915,3.287
+2005-11-08 18:25:00,121,- <*> 2005.11.08 <*> <*> <*> RAS KERNEL INFO iar <*> dear <*>,1,0.022,0.298,0.915,3.287
+2005-06-30 15:20:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.029,0.297,0.92,3.27
+2005-06-30 16:15:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.029,0.297,0.92,3.27
+2005-06-30 16:30:00,61,- <*> 2005.06.30 <*> <*> <*> RAS KERNEL INFO generating <*>,1,0.029,0.297,0.92,3.27

@@ -1,0 +1,3 @@
+dataset,total_lines,unique_templates,top_template_share_pct,reason
+BGL,2000,151,9.0,"Supercomputer log: nhieu component, severity, event type va hardware/kernel pattern nen template da dang hon."
+HDFS,2000,21,15.7,HDFS_2k lap lai nhieu thao tac block/DataNode/FSNamesystem nen it template hon.
