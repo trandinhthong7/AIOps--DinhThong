@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIOps — Tuần 1: Thời Khoá Biểu</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    padding: 40px 24px;
+  }
+  .container { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 6px; letter-spacing: -0.02em; }
+  .subtitle { color: #64748b; font-size: 0.9rem; margin-bottom: 32px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  .day {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+  }
+  .day-header {
+    padding: 12px 14px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .day-body {
+    padding: 14px;
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+  .day-body .topic {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    color: #0f172a;
+  }
+  .day-body ul {
+    padding-left: 18px;
+    color: #475569;
+  }
+  .day-body li { margin-bottom: 3px; }
+  .tag {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .self .day-header { background: #eff6ff; color: #1d4ed8; }
+  .online .day-header { background: #faf5ff; color: #7c3aed; }
+  .lab .day-header { background: #fff7ed; color: #c2410c; }
+  .checkpoint .day-header { background: #ecfdf5; color: #047857; }
+
+  .tag-self { background: #2563eb; }
+  .tag-online { background: #7c3aed; }
+  .tag-lab { background: #ea580c; }
+  .tag-checkpoint { background: #059669; }
+
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Tuần 1 — Detection & Triage</h1>
+<p class="subtitle">AIOps Track</p>
+
+<div class="grid">
+
+  <div class="day self">
+    <div class="day-header">Thứ 2 <span class="tag tag-self">Self-study</span></div>
+    <div class="day-body">
+      <div class="topic">Metric Anomaly Detection</div>
+      <ul>
+        <li>Phân phối, skewness, stationarity</li>
+        <li>3σ, EWMA, STL decomposition</li>
+        <li>Isolation Forest, One-Class SVM</li>
+        <li>Autoencoder, LSTM-AE</li>
+        <li>Feature engineering time series</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="day online">
+    <div class="day-header">Thứ 3 <span class="tag tag-online">Online sáng</span></div>
+    <div class="day-body">
+      <div class="topic">Sáng: Online Session</div>
+      <ul>
+        <li>Incident walkthrough thật</li>
+        <li>Taxonomy bài toán AIOps</li>
+        <li>Q&A</li>
+      </ul>
+      <div class="topic" style="margin-top: 14px;">Chiều: Log Mining</div>
+      <ul>
+        <li>Drain3, Spell, log parsing</li>
+        <li>TF-IDF, embedding</li>
+        <li>Anomaly detection trên log</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="day self">
+    <div class="day-header">Thứ 4 <span class="tag tag-self">Self-study</span></div>
+    <div class="day-body">
+      <div class="topic">Data Layer Architecture</div>
+      <ul>
+        <li>Observability pipeline E2E</li>
+        <li>OpenTelemetry</li>
+        <li>Kafka, streaming pipeline</li>
+        <li>Feature store</li>
+        <li>Schema registry, data contract</li>
+        <li>Storage trade-off, cost model</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="day lab">
+    <div class="day-header">Thứ 5 <span class="tag tag-lab">Lab offline</span></div>
+    <div class="day-body">
+      <div class="topic">Detect & Triage "Broken System"</div>
+      <ul>
+        <li>Sáng: spot-check + Q&A</li>
+        <li>Chiều: lab cá nhân</li>
+        <li>Dataset metric + log 24h</li>
+        <li>Anomaly detection pipeline</li>
+        <li>Log clustering (Drain3)</li>
+        <li>Narrow down nguyên nhân</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="day checkpoint">
+    <div class="day-header">Thứ 6 <span class="tag tag-checkpoint">Checkpoint</span></div>
+    <div class="day-body">
+      <div class="topic">Show-and-tell + Viva</div>
+      <ul>
+        <li>Sáng: hoàn thiện deliverable</li>
+        <li>Chiều: present trong pod</li>
+        <li>Random viva trước lớp</li>
+        <li>Nộp deliverable package</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>

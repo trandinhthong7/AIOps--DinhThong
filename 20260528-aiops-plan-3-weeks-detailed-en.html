@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIOps Plan — 3-Week Hands-On Program</title>
+<style>
+  :root {
+    --bg: #f7f8fa; --panel: #ffffff; --border: #e5e7eb; --text: #1f2937;
+    --muted: #6b7280; --accent: #2563eb; --accent-2: #ea580c; --accent-3: #7c3aed;
+    --self-bg: #ffffff; --lab-bg: #fff7ed; --online-bg: #faf5ff; --collab-bg: #ecfdf5;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif; line-height:1.6; }
+  .container { max-width:1080px; margin:0 auto; padding:40px 24px 80px; }
+  header { border-bottom:1px solid var(--border); padding-bottom:20px; margin-bottom:28px; }
+  h1 { font-size:1.9rem; margin:0 0 6px; color:#111827; letter-spacing:-0.02em; }
+  .subtitle { color:var(--muted); font-size:0.95rem; }
+  h2 { font-size:1.3rem; margin:40px 0 14px; padding-left:12px; border-left:4px solid var(--accent); color:#111827; }
+  .week-theme { color:var(--muted); font-size:0.95rem; margin:-8px 0 14px 16px; font-style:italic; }
+  .day { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:16px 22px; margin:0 0 12px; box-shadow:0 1px 2px rgba(0,0,0,0.03); }
+  .day.self { border-left:4px solid var(--accent); }
+  .day.online { border-left:4px solid var(--accent-3); background:var(--online-bg); }
+  .day.lab { border-left:4px solid var(--accent-2); background:var(--lab-bg); }
+  .day-head { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+  .day-num { font-weight:700; color:var(--accent); font-size:1.05rem; min-width:70px; }
+  .day.lab .day-num { color:var(--accent-2); }
+  .day.online .day-num { color:var(--accent-3); }
+  .day-title { font-weight:600; font-size:1.02rem; }
+  .day-tag { display:inline-block; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:4px; letter-spacing:0.05em; margin-left:auto; color:white; }
+  .tag-self { background:var(--accent); } .tag-lab { background:var(--accent-2); } .tag-online { background:var(--accent-3); } .tag-collab { background:#10b981; }
+  ul { margin:4px 0; padding-left:22px; } li { margin:1px 0; }
+  .section-label { font-size:0.76rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; margin:10px 0 3px; }
+  .deliverable-box { background:#fef3c7; border-left:3px solid #f59e0b; padding:8px 14px; border-radius:4px; margin:8px 0 0; font-size:0.92rem; color:#78350f; }
+  .deliverable-box strong { color:#92400e; }
+  .io-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:6px 0; }
+  .io-box { background:#ffffff; border:1px solid var(--border); border-radius:6px; padding:8px 14px; }
+  .io-box h4 { margin:0 0 4px; font-size:0.82rem; color:var(--accent-2); text-transform:uppercase; letter-spacing:0.05em; }
+  .pkg-box { background:#ffffff; border:1px dashed #fdba74; border-radius:6px; padding:8px 14px; margin:8px 0 4px; }
+  .pkg-box h4 { margin:0 0 4px; font-size:0.82rem; color:var(--accent-2); text-transform:uppercase; letter-spacing:0.05em; }
+  code { background:#f3f4f6; padding:1px 5px; border-radius:3px; font-size:0.88em; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .meta-table { width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--border); border-radius:8px; overflow:hidden; margin-bottom:16px; }
+  .meta-table th,.meta-table td { padding:10px 14px; border-bottom:1px solid var(--border); text-align:left; font-size:0.92rem; vertical-align:top; }
+  .meta-table th { background:#f3f4f6; color:#374151; font-weight:600; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.04em; }
+  .meta-table tr:last-child td { border-bottom:none; }
+  .legend { display:flex; gap:18px; margin-bottom:24px; font-size:0.85rem; color:var(--muted); flex-wrap:wrap; }
+  .legend-item { display:flex; align-items:center; gap:8px; }
+  .legend-swatch { width:14px; height:14px; border-radius:3px; border:1px solid var(--border); }
+  footer { margin-top:50px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:0.85rem; text-align:center; }
+  .format-box { background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px; padding:10px 14px; margin:8px 0; font-size:0.9rem; color:#1e40af; }
+  @media print { body{background:white;} .container{max-width:none;padding:16px;} .day{box-shadow:none;page-break-inside:avoid;} }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>AIOps Plan &mdash; 3-Week Hands-On Program</h1>
+  <div class="subtitle">34 students &middot; 1 lead + 1 support &middot; Weekly online live (Tue morning, 2&ndash;2.5h) &middot; Offline every Thu</div>
+</header>
+
+<h2>Weekly Schedule</h2>
+
+<table class="meta-table">
+  <thead>
+    <tr><th>Day</th><th>Format</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Mon</strong></td><td>Self-study</td><td>Read material + embedded exercises + end-of-day checkpoint</td></tr>
+    <tr><td><strong>Tue</strong></td><td>Online AM + Self-study PM</td><td>Morning: online session. Afternoon: continue self-study</td></tr>
+    <tr><td><strong>Wed</strong></td><td>Self-study</td><td>Read material + embedded exercises + end-of-day checkpoint</td></tr>
+    <tr><td><strong>Thu</strong></td><td>Offline AM + Lab PM</td><td>Morning: spot-check + Q&amp;A. Afternoon: individual lab</td></tr>
+    <tr><td><strong>Fri</strong></td><td>Lab + Viva</td><td>Morning: finalize deliverables. Afternoon: pod show-and-tell + random viva</td></tr>
+  </tbody>
+</table>
+
+<div class="format-box">
+  <strong>Self-study format:</strong> Each self-study day has a technical guide (~700 lines) with exercises embedded directly in the content. Students read &rarr; do exercise &rarr; read more &rarr; do next exercise. End-of-day submission: checkpoint notebook with all exercises completed + reflection. Exercises are tightly coupled to reading flow &mdash; can't be done without understanding the material.
+</div>
+
+<h2>Overview</h2>
+
+<table class="meta-table">
+  <thead>
+    <tr><th>Week</th><th>Online (Tue)</th><th>Self-study (Mon + Tue PM + Wed)</th><th>Lab (Thu&ndash;Fri)</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>W1</strong><br>Detection &amp; Triage</td>
+      <td>Real incident walkthrough, AIOps taxonomy, week briefing</td>
+      <td>D1: Metric Anomaly Detection (statistical &rarr; ML &rarr; DL)<br>D2: Log Mining + Parsing (Drain3, embedding, anomaly)<br>D3: Data Layer Architecture + Observability Pipeline</td>
+      <td>Detect anomaly + cluster logs on "broken system" dataset &rarr; narrow down root cause</td>
+    </tr>
+    <tr>
+      <td><strong>W2</strong><br>RCA &amp; Smart Response</td>
+      <td>Alert storm walkthrough, correlation + RCA assistant demo</td>
+      <td>D1: Alert Correlation + Noise Reduction<br>D2: RCA &mdash; Graph, Causal + LLM-augmented<br>D3: Model Serving &amp; ML Deployment Architecture</td>
+      <td>Build alert correlator + mini RCA assistant (LLM + service graph)</td>
+    </tr>
+    <tr>
+      <td><strong>W3</strong><br>Auto-remediation &amp; E2E</td>
+      <td>E2E platform walkthrough, closed-loop demo, human-in-the-loop</td>
+      <td>D1: Auto-remediation &amp; Safety Guardrails<br>D2: Closed-loop Architecture + Workflow Orchestration<br>D3: E2E AIOps Platform Design + Cross-team Spec</td>
+      <td>Build closed-loop POC (detect&rarr;enrich&rarr;decide&rarr;dry-run&rarr;verify) + cross-team spec</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="deliverable-box" style="margin-bottom:16px;">
+  <strong>Mandatory KPIs in all labs:</strong> Time-to-Detect (TTD), alert noise reduction %, precision/recall, and MTTR proxy (where applicable). Not just academic accuracy &mdash; must articulate "this model reduces TTD by X minutes, compresses alert noise to Y%".
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="legend-swatch" style="background:#fff;"></span> Self-study (full day)</div>
+  <div class="legend-item"><span class="legend-swatch" style="background:var(--online-bg);border-color:var(--accent-3);"></span> Online live</div>
+  <div class="legend-item"><span class="legend-swatch" style="background:var(--lab-bg);border-color:var(--accent-2);"></span> Offline lab</div>
+</div>
+
+<!-- ============== WEEK 1 ============== -->
+<h2>Week 1 &mdash; Detection &amp; Triage</h2>
+<div class="week-theme">"Save the burning system" &mdash; detect anomalies + parse logs from real telemetry</div>
+
+<div class="day online">
+  <div class="day-head">
+    <span class="day-num">Tue AM</span>
+    <span class="day-title">Incident Walkthrough &mdash; Week Kickoff</span>
+    <span class="day-tag tag-online">LIVE 2&ndash;2.5h</span>
+  </div>
+  <div class="section-label">Content</div>
+  <ul>
+    <li>Walk through a real incident (e.g. Cloudflare 2022, AWS us-east-1, GitHub outage) &mdash; trigger &rarr; triage &rarr; RCA &rarr; post-mortem</li>
+    <li>AIOps problem taxonomy + mapping problems &harr; techniques</li>
+    <li>Week briefing + distribute materials + Q&amp;A</li>
+  </ul>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D1 (Mon)</span>
+    <span class="day-title">Metric Anomaly Detection</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Foundations: normal distribution, skewness, stationarity &mdash; why they matter for anomaly detection</li>
+    <li>Statistical: Rolling Z-score (3&sigma;), EWMA, STL decomposition &mdash; mechanisms, when to use, when they fail</li>
+    <li>ML: Isolation Forest (intuition, feature engineering, tuning), One-Class SVM (comparison)</li>
+    <li>DL: Autoencoder, LSTM-AE &mdash; intuition, when needed, trade-offs vs simpler methods</li>
+    <li>Univariate vs Multivariate &mdash; why multivariate catches memory leaks that univariate misses</li>
+    <li>Feature engineering for time series: rolling stats, lag, rate of change, temporal features</li>
+    <li>KPIs: precision, recall, F1, TTD, false alarm rate &mdash; recall &gt; precision in AIOps</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>EDA: load NAB data, compute skewness, plot ACF, determine data type</li>
+    <li>Implement rolling Z-score + observe results on specific data</li>
+    <li>Implement Isolation Forest with feature engineering + tune contamination</li>
+    <li>Compare 2 detectors: precision/recall table + explain trade-offs</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>End-of-day checkpoint:</strong> Notebook with all exercises completed + SUBMIT.md reflection (data type, method choice, reasoning, trade-offs).
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D2 (Tue PM + Wed)</span>
+    <span class="day-title">Log Mining + Parsing + Log-based Anomaly Detection</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Why logs matter: metrics tell "what's wrong", logs tell "why"</li>
+    <li>Log parsing problem: millions of unique log lines &rarr; need template extraction</li>
+    <li>Drain3 deep dive: parse tree algorithm, fixed-depth tree, template extraction</li>
+    <li>Parser comparison: Drain3 vs Spell vs Lenma vs LLM-based &mdash; when to use which</li>
+    <li>Log embedding: TF-IDF on templates, sentence-transformers for semantic similarity</li>
+    <li>Anomaly detection on logs: template count spikes, new template detection, semantic drift</li>
+    <li>Combining metrics + logs: when logs are sufficient, when cross-signal is needed</li>
+    <li>Production considerations: log volume, sampling, storage cost, structured vs unstructured</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Parse HDFS logs with Drain3, observe template tree, explain output</li>
+    <li>Create template count time series &rarr; apply anomaly detector from D1</li>
+    <li>TF-IDF on templates &rarr; find similar/dissimilar clusters</li>
+    <li>New template detection: inject unknown log line &rarr; detect</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> Notebook exercises + top-10 templates CSV + SUBMIT.md (parser comparison, log vs metric insights).
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D3 (Wed)</span>
+    <span class="day-title">Data Layer Architecture + Observability Pipeline</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Observability pipeline end-to-end: collection &rarr; transport &rarr; processing &rarr; storage &rarr; query</li>
+    <li>OpenTelemetry (OTel): traces, metrics, logs &mdash; unified collection, SDK + Collector architecture</li>
+    <li>Transport layer: Kafka vs direct push &mdash; when you need a message queue, when you don't</li>
+    <li>Feature store: online vs offline &mdash; when needed for AIOps, when overkill</li>
+    <li>Streaming feature pipeline: Kafka + Flink/Spark Streaming for real-time feature extraction</li>
+    <li>Schema registry + data contracts: preventing "log format changed &rarr; pipeline breaks"</li>
+    <li>Storage trade-offs: time-series DB (InfluxDB, Prometheus) vs data lake (S3 + Parquet) vs both</li>
+    <li>Cost model: storage, compute, egress &mdash; capacity planning for observability data</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Draw architecture diagram for an AIOps use case (Python diagrams library)</li>
+    <li>Mock streaming pipeline: Python consumer reading from queue &rarr; extract features &rarr; store</li>
+    <li>Cost estimation: calculate storage cost for 1 month of metric + log data</li>
+    <li>ADR: write an Architecture Decision Record for "Kafka vs direct push"</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> Architecture diagram PNG + pipeline script + cost estimation + ADR + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day lab">
+  <div class="day-head">
+    <span class="day-num">Thu</span>
+    <span class="day-title">Individual Lab &mdash; Detect &amp; Triage on "Broken System"</span>
+    <span class="day-tag tag-lab">OFFLINE</span>
+  </div>
+  <div class="section-label">Opening (30 min)</div>
+  Spot-check random 3 students (90s each) + Q&amp;A blockers.
+  <div class="section-label">Scenario</div>
+  "Broken system" dataset &mdash; a simulated failing microservice with 24h of metrics + logs. Find: when the failure started, where it originated, what the symptoms were.
+  <div class="io-grid">
+    <div class="io-box">
+      <h4>Input</h4>
+      <ul>
+        <li>Dataset: metrics + logs (~500MB)</li>
+        <li>Repo template <code>aiops-w1-{name}</code></li>
+        <li>1-page scenario brief</li>
+      </ul>
+    </div>
+    <div class="io-box">
+      <h4>Output</h4>
+      <ul>
+        <li>Anomaly detection pipeline on metrics</li>
+        <li>Log clustering with Drain3</li>
+        <li>Narrow down: timestamp + service + root cause hypothesis</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pkg-box">
+    <h4>Deliverable package (end of Thu)</h4>
+    <ul>
+      <li><code>notebooks/01-eda.ipynb</code></li>
+      <li><code>notebooks/02-anomaly-detection.ipynb</code></li>
+      <li><code>notebooks/03-log-clustering.ipynb</code></li>
+      <li><code>FINDINGS.md</code> &mdash; conclusion: when, where, root cause hypothesis</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">Fri</span>
+    <span class="day-title">Wrap &mdash; Pod Show-and-Tell + Random Viva</span>
+    <span class="day-tag tag-collab">CHECKPOINT</span>
+  </div>
+  <ul>
+    <li>Morning: finalize deliverables</li>
+    <li>13:30&ndash;15:00: show-and-tell in pods of 5 (5 min present + 3 min Q&amp;A), pod feedback sheet</li>
+    <li>15:00&ndash;15:45: random viva &mdash; 5&ndash;7 students present to entire class</li>
+    <li>15:45&ndash;16:30: buffer + escalation (mentor 1:1 with struggling students)</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Submit by end of Fri:</strong> Deliverable package + pod feedback sheet.
+  </div>
+</div>
+
+<!-- ============== WEEK 2 ============== -->
+<h2>Week 2 &mdash; RCA &amp; Smart Response</h2>
+<div class="week-theme">"Understand why" &mdash; build a mini RCA assistant + correlation pipeline</div>
+
+<div class="day online">
+  <div class="day-head">
+    <span class="day-num">Tue AM</span>
+    <span class="day-title">Alert Storm Walkthrough &mdash; Week Kickoff</span>
+    <span class="day-tag tag-online">LIVE 2&ndash;2.5h</span>
+  </div>
+  <div class="section-label">Content</div>
+  <ul>
+    <li>Walk through an alert storm: 1 incident generating 200 alerts in 5 minutes</li>
+    <li>Live demo: alert correlation compressing 200 &rarr; 12 clusters, RCA assistant answering "what broke + why"</li>
+    <li>Pattern: Detect &rarr; Enrich &rarr; Decide &rarr; Act &rarr; Verify</li>
+    <li>Week briefing + distribute materials + Q&amp;A</li>
+  </ul>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D1 (Mon)</span>
+    <span class="day-title">Alert Correlation + Noise Reduction</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Alert fatigue: why 200 alerts/5 min = useless, on-call ignores them</li>
+    <li>Dedup, suppression, grouping &mdash; rule-based correlation</li>
+    <li>Topology-aware correlation: service dependency graph &rarr; group alerts by service chain</li>
+    <li>Temporal correlation: sliding window, co-occurrence matrix</li>
+    <li>ML-based alert clustering: feature engineering, DBSCAN, hierarchical clustering</li>
+    <li>Noise reduction metrics: compression ratio, precision, coverage</li>
+    <li>Causal vs correlational &mdash; common trap: "alert A before B" &ne; "A caused B"</li>
+    <li>Production: PagerDuty/Opsgenie integration, alert routing, escalation policies</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Rule-based correlation: implement dedup + suppression on alert dataset</li>
+    <li>Temporal clustering: sliding window &rarr; co-occurrence &rarr; group alerts</li>
+    <li>Topology-aware: load service graph &rarr; cluster alerts by dependency chain</li>
+    <li>Evaluate: 200 alerts &rarr; how many clusters, compression ratio</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> Notebook exercises + cluster_summary.json (200&rarr;&le;20 clusters) + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D2 (Tue PM + Wed)</span>
+    <span class="day-title">RCA &mdash; Graph, Causal + LLM-augmented</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>RCA problem: from "what's wrong" &rarr; "why it's wrong" &mdash; why it's hard</li>
+    <li>Service dependency graph: build from trace data, topology discovery</li>
+    <li>Graph-based RCA: propagation analysis, MonitorRank, random walk on service graph</li>
+    <li>Hierarchical metric explanation: top-down drill from high-level KPI &rarr; root metric</li>
+    <li>Causal inference basics: PC algorithm, Granger causality &mdash; intuition only</li>
+    <li>LLM-augmented RCA: incident summarization, runbook RAG, prompt patterns for RCA assistant</li>
+    <li>Hallucination risk: LLMs can fabricate root causes &mdash; validation and guardrails</li>
+    <li>Case studies: Netflix RCA, MonitorRank paper, Datadog RCA</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Build service graph from JSON &rarr; visualize with networkx</li>
+    <li>Walk graph: given anomaly alert, trace upstream/downstream &rarr; find root service</li>
+    <li>Mini RCA assistant: RAG over service graph + runbook &rarr; answer "what + why"</li>
+    <li>Evaluate: groundedness check &mdash; does the RCA answer cite actual data?</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> Notebook exercises + FINDINGS.md (RCA for 3 scenarios) + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D3 (Wed)</span>
+    <span class="day-title">Model Serving &amp; ML Deployment Architecture</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Inference patterns: batch vs online vs streaming &mdash; latency budget per AIOps use case</li>
+    <li>Serving stack deep dive: BentoML, Triton, KServe, Seldon &mdash; architecture comparison</li>
+    <li>Model registry: MLflow &mdash; versioning, staging, rollback, lineage tracking</li>
+    <li>Deployment patterns: canary, shadow, A/B &mdash; when to use which for ML models</li>
+    <li>Monitoring ML in production: data drift, concept drift, performance degradation</li>
+    <li>GPU inference optimization: batching, quantization, model distillation &mdash; overview</li>
+    <li>Cost model: CPU vs GPU inference, cold start, scaling strategy</li>
+    <li>Architecture pattern: model serving for anomaly detection pipeline (real-time + batch)</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Wrap anomaly detector (from W1) as FastAPI /predict endpoint</li>
+    <li>Test endpoint: curl request &rarr; verify response format</li>
+    <li>Architecture diagram: model serving pipeline for an AIOps use case</li>
+    <li>Cost estimation: CPU vs GPU inference for 1M predictions/day</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> serve.py + DESIGN.md (serving architecture) + cost estimation + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day lab">
+  <div class="day-head">
+    <span class="day-num">Thu</span>
+    <span class="day-title">Individual Lab &mdash; Build Correlator + RCA Assistant</span>
+    <span class="day-tag tag-lab">OFFLINE</span>
+  </div>
+  <div class="section-label">Opening (30 min)</div>
+  Spot-check + Q&amp;A blockers.
+  <div class="section-label">Scenario</div>
+  Alert storm + service dependency graph provided. Build 2 modules: (1) alert correlator grouping alerts into clusters, (2) RCA assistant answering "what broke + why" for a specific cluster.
+  <div class="io-grid">
+    <div class="io-box">
+      <h4>Input</h4>
+      <ul>
+        <li>Alert storm dataset (~500 alerts, 3 scenarios)</li>
+        <li>Service graph JSON</li>
+        <li>Runbook (5&ndash;10 page mock)</li>
+        <li>Repo template + LLM API key</li>
+      </ul>
+    </div>
+    <div class="io-box">
+      <h4>Output</h4>
+      <ul>
+        <li>Correlator: group alerts into &le;20 clusters with labels</li>
+        <li>RCA assistant: answer "what + why" for &ge;3 clusters with citations</li>
+        <li>Eval: precision/recall of correlator + groundedness of assistant</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pkg-box">
+    <h4>Deliverable package (end of Thu)</h4>
+    <ul>
+      <li><code>src/correlator/</code> + <code>src/rca_assistant/</code></li>
+      <li><code>notebooks/eval.ipynb</code></li>
+      <li><code>FINDINGS.md</code> &mdash; RCA for 3 scenarios</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">Fri</span>
+    <span class="day-title">Wrap &mdash; Pod Show-and-Tell + Random Viva</span>
+    <span class="day-tag tag-collab">CHECKPOINT</span>
+  </div>
+  Same format as Week 1: morning finalize, afternoon pod show-and-tell + random viva + buffer.
+  <div class="deliverable-box">
+    <strong>Submit by end of Fri:</strong> Deliverable package + pod feedback sheet.
+  </div>
+</div>
+
+<!-- ============== WEEK 3 ============== -->
+<h2>Week 3 &mdash; Auto-remediation, Closed-loop &amp; E2E Platform</h2>
+<div class="week-theme">"Put AI into production" &mdash; enough architecture to design end-to-end and write specs clear enough to collaborate with ops teams</div>
+
+<div class="day online">
+  <div class="day-head">
+    <span class="day-num">Tue AM</span>
+    <span class="day-title">E2E Platform Walkthrough &mdash; Week Kickoff</span>
+    <span class="day-tag tag-online">LIVE 2&ndash;2.5h</span>
+  </div>
+  <div class="section-label">Content</div>
+  <ul>
+    <li>Walk through a real platform (Datadog Watchdog / Dynatrace Davis / Splunk AIOps) &mdash; layer by layer</li>
+    <li>Live demo: closed-loop scenario &mdash; high latency &rarr; AI suggests scale &rarr; human approves &rarr; execute &rarr; verify</li>
+    <li>Why closed-loop is hard: idempotency, blast radius, human-in-the-loop gates</li>
+    <li>Week briefing + distribute materials + Q&amp;A</li>
+  </ul>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D1 (Mon)</span>
+    <span class="day-title">Auto-remediation &amp; Safety Guardrails</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Remediation maturity: manual &rarr; rule-based &rarr; ML-recommended &rarr; autonomous</li>
+    <li>Action catalog: scale, restart, failover, throttle, redirect traffic, circuit break</li>
+    <li>Decision engine design: rule engine + ML-recommended hybrid</li>
+    <li>Safety guardrails deep dive: blast radius estimation, dry-run, circuit breaker, rollback policy</li>
+    <li>Decision framework: when autonomous is OK, when human-in-the-loop is required</li>
+    <li>GenAI runbook: LLM generates step-by-step remediation &rarr; human approves &rarr; execute with guardrails</li>
+    <li>Audit trail: every action must be logged, traceable, reviewable</li>
+    <li>Case studies: PagerDuty auto-remediation, Datadog Watchdog remediation</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Build decision engine: &ge;3 rules + &ge;1 ML-recommended action</li>
+    <li>Implement dry-run mode: execute actions but only log, don't actually change</li>
+    <li>Audit log: JSON log of every decision (input &rarr; rule matched &rarr; action &rarr; outcome)</li>
+    <li>Safety checklist: evaluate an action catalog using blast radius framework</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> decide.py + audit_log.json + safety checklist + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D2 (Tue PM + Wed)</span>
+    <span class="day-title">Closed-loop Architecture + Workflow Orchestration</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>Closed-loop pattern: Detect &rarr; Enrich &rarr; Decide &rarr; Act &rarr; Verify &mdash; why a loop, not a pipeline</li>
+    <li>Event-driven backbone: Kafka vs NATS vs Pulsar &mdash; when to use which</li>
+    <li>Workflow orchestration: Argo Workflows / Temporal / Step Functions &mdash; comparison</li>
+    <li>Idempotency + exactly-once for remediation actions &mdash; why it's critical</li>
+    <li>State machine design: states, transitions, human-in-the-loop gates, timeout handling</li>
+    <li>Verify step: post-action outcome checking &mdash; success criteria, rollback triggers</li>
+    <li>Feedback loop: verify results improve detect + decide for next time</li>
+    <li>Reference: Netflix auto-diagnosis, AWS re:Invent closed-loop talks</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>Design state machine for a remediation scenario (diagram)</li>
+    <li>Build pipeline: detect&rarr;enrich&rarr;decide&rarr;execute(dry)&rarr;verify, run E2E on 1 scenario</li>
+    <li>Implement verify step: check outcome metric after action</li>
+    <li>Failure scenario: action fails &rarr; rollback &rarr; log &rarr; alert</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> pipeline.py (5-stage) + state machine diagram + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">D3 (Wed)</span>
+    <span class="day-title">E2E AIOps Platform Design + Cross-team Spec</span>
+    <span class="day-tag tag-self">SELF-STUDY</span>
+  </div>
+  <div class="section-label">Topics</div>
+  <ul>
+    <li>E2E AIOps platform: OTel &rarr; Kafka &rarr; Flink &rarr; Feature store &rarr; Model serving &rarr; Decision engine &rarr; Executor</li>
+    <li>Build vs Buy framework: when to build, when to buy (Datadog, Splunk, PagerDuty, custom)</li>
+    <li>Cost model: storage, compute, GPU inference, data egress &mdash; monthly estimate per scale</li>
+    <li>Writing specs for ops teams: SLO/SLI, alert budget, infra requirements, deployment expectations</li>
+    <li>ADR template: context, decision, consequences, alternatives considered</li>
+    <li>Trade-off framework: cost &harr; latency &harr; accuracy &harr; complexity &mdash; quantify trade-offs</li>
+    <li>Team boundaries: AI team vs Platform team vs Ops team &mdash; interface contracts</li>
+    <li>Reference architecture: Datadog, Splunk, open-source stack</li>
+  </ul>
+  <div class="section-label">Embedded exercises</div>
+  <ul>
+    <li>E2E architecture diagram (Python diagrams library) for one use case</li>
+    <li>Spec document: infra + deploy + SLO requirements for ops team</li>
+    <li>ADR: &ge;1 major architecture decision with alternatives + trade-offs</li>
+    <li>Cost model script: estimate monthly cost for 3 tiers (small/medium/large)</li>
+  </ul>
+  <div class="deliverable-box">
+    <strong>Checkpoint:</strong> Architecture diagram + SPEC.md + ADR.md + cost_model.py + SUBMIT.md.
+  </div>
+</div>
+
+<div class="day lab">
+  <div class="day-head">
+    <span class="day-num">Thu</span>
+    <span class="day-title">Individual Lab &mdash; Build Closed-loop POC + Cross-team Spec</span>
+    <span class="day-tag tag-lab">OFFLINE</span>
+  </div>
+  <div class="section-label">Opening (30 min)</div>
+  Spot-check random 3 students + Q&amp;A blockers.
+  <div class="section-label">Scenario</div>
+  Use case: "High latency on payment service". Build a mini closed-loop end-to-end: detect &rarr; enrich &rarr; decide &rarr; execute (dry-run) &rarr; verify. In parallel, write a mock spec for the ops team to handle deployment.
+  <div class="io-grid">
+    <div class="io-box">
+      <h4>Input</h4>
+      <ul>
+        <li>Payment service metrics dataset</li>
+        <li>Mock action catalog (scale, restart, throttle)</li>
+        <li>Repo template <code>aiops-w3-{name}</code></li>
+        <li>Spec template + ADR template</li>
+      </ul>
+    </div>
+    <div class="io-box">
+      <h4>Output</h4>
+      <ul>
+        <li>Working closed-loop pipeline (dry-run mode)</li>
+        <li>Decision engine with &ge;3 rules + 1 ML-recommended</li>
+        <li>1 spec for ops team (infra + deploy + SLO)</li>
+        <li>1 ADR for &ge;1 major decision</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pkg-box">
+    <h4>Deliverable package (end of Thu)</h4>
+    <ul>
+      <li><code>src/</code> &mdash; <code>detect.py</code>, <code>enrich.py</code>, <code>decide.py</code>, <code>execute_dryrun.py</code>, <code>verify.py</code></li>
+      <li><code>architecture.png</code> &mdash; closed-loop E2E diagram</li>
+      <li><code>spec-ops-team.md</code> &mdash; mock spec for ops team</li>
+      <li><code>ADR/001-*.md</code> &mdash; major decision with rationale</li>
+      <li><code>FINDINGS.md</code> &mdash; dry-run results + reflection</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day self">
+  <div class="day-head">
+    <span class="day-num">Fri</span>
+    <span class="day-title">Wrap &mdash; Pod Show-and-Tell + Random Viva</span>
+    <span class="day-tag tag-collab">CHECKPOINT</span>
+  </div>
+  Same format as Weeks 1&ndash;2: morning finalize, afternoon pod show-and-tell + random viva + buffer escalation.
+  <div class="deliverable-box">
+    <strong>Submit by end of Fri:</strong> Deliverable package + pod feedback sheet.
+  </div>
+</div>
+
+<!-- ============== MATERIAL CHECKLIST ============== -->
+<h2>Materials to Prepare Before the Course</h2>
+
+<table class="meta-table">
+  <thead>
+    <tr><th>Type</th><th>Quantity</th><th>When Needed</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Slides / video incident walkthrough (online live)</td><td>3 (1/week)</td><td>Before each week</td></tr>
+    <tr><td>Self-study materials (markdown + visualizations)</td><td>9 (3/week, ~700 lines each, embedded exercises)</td><td>Before each week</td></tr>
+    <tr><td>Datasets</td><td>3 (broken system, alert storm, payment latency)</td><td>Before each week</td></tr>
+    <tr><td>Repo templates</td><td>3 (1/week)</td><td>Before each week</td></tr>
+    <tr><td>Lab brief + scenario</td><td>3 (1/week)</td><td>Before each week</td></tr>
+    <tr><td>Templates (ADR, spec, pod feedback sheet)</td><td>3&ndash;4</td><td>Before course starts</td></tr>
+    <tr><td>Cheatsheets (problem&harr;technique, trade-offs, safety)</td><td>3</td><td>Before course starts</td></tr>
+  </tbody>
+</table>
+
+<footer>
+  AIOps Track &middot; 3-week hands-on program &middot; 34 students &middot; 1 lead + 1 support &middot; Updated 2026-06-01
+</footer>
+
+</div>
+</body>
+</html>
