@@ -1,0 +1,5 @@
+metric,rolling_zscore_first_anomaly,mad_first_anomaly,rolling_zscore_count,mad_count
+http_p99_latency_ms,2026-06-01 02:07:30+00:00,2026-06-01 16:45:30+00:00,40,791
+http_5xx_rate,2026-06-01 20:17:30+00:00,2026-06-01 20:08:00+00:00,13,381
+jvm_gc_pause_ms_avg,2026-06-01 16:18:00+00:00,2026-06-01 17:59:00+00:00,14,101
+container_restart_count,2026-06-01 20:00:00+00:00,,35,0
