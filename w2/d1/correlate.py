@@ -37,7 +37,7 @@ def load_service_graph(services_doc: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def session_groups(alerts: list[dict[str, Any]], gap_sec: int = 120) -> list[list[dict[str, Any]]]:
+def session_groups(alerts: list[dict[str, Any]], gap_sec: int = 49) -> list[list[dict[str, Any]]]:
     if not alerts:
         return []
 
@@ -116,7 +116,7 @@ def summarize_cluster(cluster_id: str, alerts: list[dict[str, Any]]) -> dict[str
 
 
 def correlate(
-    alerts: list[dict[str, Any]], services_doc: dict[str, Any], gap_sec: int = 120, max_hop: int = 2
+    alerts: list[dict[str, Any]], services_doc: dict[str, Any], gap_sec: int = 49, max_hop: int = 2
 ) -> dict[str, Any]:
     graph = load_service_graph(services_doc)
     clusters: list[dict[str, Any]] = []
