@@ -1,0 +1,19 @@
+# AIOps W2D1 - Alert Correlation Submission
+
+Em chọn `gap_sec = 120` vì dataset mô phỏng một incident production ngắn, các alert chính xuất hiện liên tục từ `09:42:01Z` đến `09:48:30Z` và khoảng im lặng giữa hai alert gần nhau nhất trong incident không quá dài. Nếu chọn 30 giây, chuỗi payment/checkout/edge có thể bị cắt nhỏ khi alert thưa hơn một chút. Nếu chọn 600 giây, khả năng gom nhầm các sự kiện độc lập tăng lên, ví dụ batch retrain của `recommender-svc` hoặc slow query của `search-svc`. Trade-off ở đây là recall tốt hơn nhưng precision giảm khi window quá rộng.
+
+Em chọn `max_hop = 2` và dùng hướng lan lỗi ngược chiều dependency: service hỏng sẽ làm các caller phía trên kêu theo. Với `payment-svc`, hai hop ngược lên là `checkout-svc` rồi `edge-lb`, đúng với scenario pool exhaustion. Em không gom các callee hoặc sibling chỉ vì chúng ở gần trên graph, vì topology vô hướng thuần túy sẽ kéo nhầm `cart-svc`, `notification-svc`, `search-svc` hoặc `recommender-svc` vào cluster chính. Alert bị “miss” khỏi cluster chính là `a-0016` của `search-svc`: nó nằm cùng time-window nhưng note ghi là independent slow query và không nằm trên upstream blast-radius của `payment-svc`.
+
+Nếu có 10000 alert thay vì 20, code sẽ chậm nhất ở phần gom topology theo từng session, đặc biệt khi nhiều service cùng xuất hiện và mỗi cluster seed phải BFS qua graph. Với graph nhỏ thì ổn, nhưng production cần cache kết quả `upstream_callers(service, max_hop)`, index alert theo service, và thêm TTL cho dedup/session state để tránh giữ memory vô hạn. Sorting alert theo timestamp cũng là `O(n log n)`, nhưng thường vẫn dễ kiểm soát hơn so với topology lookup lặp lại trên graph lớn.
+
+Fingerprint không include timestamp hay value vì hai field đó thay đổi mỗi lần alert fire. Ví dụ `payment-svc|latency_p99_ms|crit` xuất hiện ở `a-0003`, `a-0008`, `a-0015` với các timestamp khác nhau. Nếu timestamp được đưa vào fingerprint, ba alert này thành ba fingerprint riêng và dedup gần như mất tác dụng. Nếu value được đưa vào fingerprint, cùng một lỗi latency dao động 1840ms, 1850ms, 1900ms cũng bị xem là nhiều loại alert khác nhau, làm alert flood vẫn còn nguyên.
+
+Duplicate alert là cùng một loại alert lặp lại, ví dụ `payment-svc latency_p99_ms crit` ở `a-0003`, `a-0008`, `a-0015`. Correlated alert là alert khác fingerprint nhưng liên quan cùng incident theo thời gian và topology, ví dụ `payment-svc error_rate`, `checkout-svc downstream_payment_error_rate`, và `edge-lb upstream_5xx_rate`. Duplicate giảm bằng fingerprint; correlated giảm bằng time-window cộng topology-aware grouping.
+
+`gap_sec = 30`: output dễ bị tách thành nhiều session nhỏ nếu chuỗi alert có khoảng cách hơn 30 giây, làm reduction_ratio giảm và incident bị vỡ.
+
+`gap_sec = 600`: output dễ gom các alert độc lập chung một session, nên phải dựa nhiều hơn vào topology để tránh false correlation.
+
+Trong scenario chính `payment-svc` pool exhaustion, correlator của em không gom `recommender-svc` vào cluster chính. Lý do là `recommender-svc` không phải caller trực tiếp hoặc caller hai hop của `payment-svc`; nó nằm ở nhánh catalog/ML và note của alert nói batch retrain độc lập. Nếu dùng shortest path vô hướng, recommender có thể bị kéo vào vì graph e-commerce liên thông, nhưng đó là correlation sai: gần nhau trên graph không có nghĩa là cùng blast radius theo chiều lan lỗi.
+
+Limitation lớn nhất của topology grouping là graph chỉ nói “ai gọi ai”, không nói request path nào đang active, edge nào đang lỗi, hoặc causal signal có thật hay không. Một cách khắc phục là kết hợp topology với trace/log/metric evidence: chỉ gom khi hai service vừa gần nhau trên graph, vừa có metric cùng pattern, trace error propagation, hoặc log message cùng request/correlation id. Như vậy topology trở thành prior, không phải quyết định tuyệt đối.
