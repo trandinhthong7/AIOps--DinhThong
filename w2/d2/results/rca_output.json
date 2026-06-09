@@ -1,0 +1,99 @@
+{
+  "clusters_analyzed": 3,
+  "results": [
+    {
+      "cluster_id": "c-000-000",
+      "graph_top3": [
+        [
+          "payment-svc",
+          1.0
+        ],
+        [
+          "checkout-svc",
+          0.55
+        ],
+        [
+          "edge-lb",
+          0.38
+        ]
+      ],
+      "root_cause": "payment-svc",
+      "class": "connection_pool_exhaustion",
+      "confidence": 0.9,
+      "actions": [
+        "Rollback to v3.1",
+        "Scale pool 50 → 100 cushion",
+        "Add pool monitor alert > 80%"
+      ],
+      "reasoning": "Graph traversal ranked payment-svc highest from temporal order, severity, topology, and neighboring dependencies. Keyword kNN retrieved INC-2025-11-08 as nearest history item with class connection_pool_exhaustion; root service chosen as payment-svc after reconciling graph candidates with retrieved incident.",
+      "similar_incidents": [
+        "INC-2025-11-08",
+        "INC-2025-09-05",
+        "INC-2026-05-10"
+      ],
+      "method": "graph+retrieval"
+    },
+    {
+      "cluster_id": "c-000-001",
+      "graph_top3": [
+        [
+          "notification-svc",
+          1.0
+        ],
+        [
+          "kafka-events",
+          0.25
+        ],
+        [
+          "checkout-svc",
+          0.11
+        ]
+      ],
+      "root_cause": "notification-svc",
+      "class": "downstream_provider",
+      "confidence": 0.72,
+      "actions": [
+        "Failover to backup provider",
+        "Multi-provider routing"
+      ],
+      "reasoning": "Graph traversal ranked notification-svc highest from temporal order, severity, topology, and neighboring dependencies. Keyword kNN retrieved INC-2026-02-08 as nearest history item with class downstream_provider; root service chosen as notification-svc after reconciling graph candidates with retrieved incident.",
+      "similar_incidents": [
+        "INC-2026-02-08",
+        "INC-2025-10-03",
+        "INC-2026-05-18"
+      ],
+      "method": "graph+retrieval"
+    },
+    {
+      "cluster_id": "c-000-002",
+      "graph_top3": [
+        [
+          "cart-svc",
+          1.0
+        ],
+        [
+          "cart-redis",
+          0.51
+        ],
+        [
+          "catalog-svc",
+          0.32
+        ]
+      ],
+      "root_cause": "cart-redis",
+      "class": "network_partition",
+      "confidence": 0.68,
+      "actions": [
+        "Reduce min_replicas_to_write",
+        "Enable AOF persistence"
+      ],
+      "reasoning": "Graph traversal ranked cart-svc highest from temporal order, severity, topology, and neighboring dependencies. Keyword kNN retrieved INC-2026-02-22 as nearest history item with class network_partition; root service chosen as cart-redis after reconciling graph candidates with retrieved incident.",
+      "similar_incidents": [
+        "INC-2026-02-22",
+        "INC-2025-07-19",
+        "INC-2026-04-02"
+      ],
+      "method": "graph+retrieval"
+    }
+  ]
+}
