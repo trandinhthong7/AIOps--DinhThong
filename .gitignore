@@ -21,6 +21,13 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
+# Slides and presentation exports
+*.ppt
+*.pptx
+*.odp
+*.key
+*.html
+
 # Local editor and environment files
 .vscode/
 .idea/
