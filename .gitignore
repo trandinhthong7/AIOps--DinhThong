@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor and environment files
+.vscode/
+.idea/
+*.swp
+*.swo
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
