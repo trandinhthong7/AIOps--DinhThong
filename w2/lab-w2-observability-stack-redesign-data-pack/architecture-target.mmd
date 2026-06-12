@@ -1,0 +1,68 @@
+flowchart LR
+  %% Legend:
+  %% OSS/self-hosted = blue, SaaS = purple, in-house = green, cloud storage = gray
+
+  subgraph PROD["GeekShop production services: 10 services + 4 stores"]
+    SVC["edge-lb, checkout, payment, cart, catalog, search, inventory, auth, recommender, notification"]
+    STORES["payments-db, catalog-db, cart-redis, kafka-events"]
+  end
+
+  subgraph INGEST["OSS ingestion boundary"]
+    SDK["OpenTelemetry SDKs + auto-instrumentation"]
+    AGENT["OTel Collector DaemonSet\nfilter PII, drop high-cardinality tags"]
+    GW["OTel Collector Gateway\nrouting, tail-sampling, cardinality guardrails"]
+  end
+
+  subgraph HOT["Hot query tier, self-hosted OSS"]
+    VM["VictoriaMetrics Cluster\nmetrics hot retention 90d\nvmalert rules"]
+    LOKI["Grafana Loki\nstructured logs hot retention 14d\nindex labels: service/env/severity/incident_id"]
+    TEMPO["Grafana Tempo\ntraces hot retention 14d\n10% baseline, 100% error/slow tail sample"]
+    GRAF["Grafana\nsingle human query surface\nSLOs, dashboards, Explore"]
+  end
+
+  subgraph COLD["Cold retention, cloud object storage"]
+    S3LOG["S3 log archive\nraw compressed logs 365d"]
+    S3TRACE["S3 trace blocks\n90d"]
+    S3METRIC["S3 metric snapshots\n180d"]
+  end
+
+  subgraph AIOPS["In-house AIOps control plane"]
+    CORR["Alert correlation service\nfingerprint + service graph grouping"]
+    RCA["Evidence/RCA ledger\nincident decisions, actions, runbook links"]
+    COST["Cardinality + ingest budget bot\nPR comments + daily report"]
+  end
+
+  subgraph SAAS["SaaS surfaces retained"]
+    PD["PagerDuty Business\npaging only, grouped incidents"]
+    STATUS["Statuspage\ncustomer comms"]
+  end
+
+  SVC --> SDK --> AGENT --> GW
+  STORES --> AGENT
+  GW -- metrics --> VM
+  GW -- logs --> LOKI
+  GW -- traces --> TEMPO
+  LOKI --> S3LOG
+  TEMPO --> S3TRACE
+  VM --> S3METRIC
+  VM --> GRAF
+  LOKI --> GRAF
+  TEMPO --> GRAF
+  VM --> CORR
+  LOKI --> CORR
+  TEMPO --> CORR
+  CORR --> RCA
+  RCA --> GRAF
+  CORR --> PD
+  PD --> STATUS
+  GW --> COST
+  COST --> GRAF
+
+  classDef oss fill:#d8ecff,stroke:#2f6fed,color:#111;
+  classDef saas fill:#eadcff,stroke:#7a3ee6,color:#111;
+  classDef built fill:#dff7df,stroke:#288a28,color:#111;
+  classDef cloud fill:#eeeeee,stroke:#777,color:#111;
+  class VM,LOKI,TEMPO,GRAF,SDK,AGENT,GW oss;
+  class PD,STATUS saas;
+  class CORR,RCA,COST built;
+  class S3LOG,S3TRACE,S3METRIC cloud;

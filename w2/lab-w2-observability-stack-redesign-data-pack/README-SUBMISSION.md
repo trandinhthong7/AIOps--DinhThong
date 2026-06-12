@@ -1,0 +1,3 @@
+# Observability Stack Redesign Submission
+
+Read the submission in this order: `architecture-target.mmd` for the target data flow, `components.md` for component choices, `cost-model.md` for the 40%+ savings argument, then the two ADRs in `adr/`. The migration plan and risk register explain how to move without an observability blackout. `FINDINGS.md` contains the required reflection and the three-day POC plan. The design targets a steady-state monthly run rate of about `$14.2k` versus the current `$42k`, while improving RCA through OpenTelemetry, Grafana, richer trace sampling, alert correlation, and an incident evidence ledger.
